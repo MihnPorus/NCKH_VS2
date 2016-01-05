@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 225342455
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: acd0dafb6561bb1a160eb7b138bcd4d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20825fdf7477e4fe729ebb1f6c66ccb5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/spites/Cang Dung Quat.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang Vung tau.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang chan may.jpg
+- Assets/Anh truong sa/Text_MieuTa/GiaoThuongVanTaiBien.txt
+- Assets/Anh truong sa/Anh dep/spites/Cang Vung Ang.jpg
+- Assets/Anh truong sa/Anh dep/spites/giao thuong bien.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang Nghi Son.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang Cam Ranh.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang Van Phong.JPG
+- Assets/Anh truong sa/Anh dep/spites/Cang cai lan.jpg
+- Assets/Anh truong sa/Anh dep/spites/van tai bien.jpg
+- Assets/Anh truong sa/Anh dep/spites/cang Hon Gai.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_giaothuong.mp3
+- Assets/Anh truong sa/Anh dep/spites/duongbien-a-au 1.jpg
+- Assets/Anh truong sa/Anh dep/spites/Cang Thi Vai.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_giaothuong.mp3
+Dependencies: []

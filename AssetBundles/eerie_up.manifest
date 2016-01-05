@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1341652797
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67f24c9b5a161f99bf5eff7024bc1542
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif
+Dependencies: []

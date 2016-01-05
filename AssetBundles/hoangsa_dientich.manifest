@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 288395354
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e3c818d680eaf26eeeacf411f48da756
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/BandoVN/HoangSa_dientich.jpg
+Dependencies: []

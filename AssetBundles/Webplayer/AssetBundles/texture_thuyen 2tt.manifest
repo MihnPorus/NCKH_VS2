@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1268352705
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0f5b8d377f1e2d5e58bfd8df4a67483
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/texture_thuyen 2.png
+Dependencies: []

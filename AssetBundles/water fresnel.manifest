@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3153914981
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3319e25ef55c3c5e181005f7ccc0a1da
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd
+Dependencies: []

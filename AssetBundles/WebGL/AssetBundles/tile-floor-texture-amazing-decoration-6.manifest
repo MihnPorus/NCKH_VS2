@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4237125571
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06d13938d9a24d011af6272dec14f3ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 629335a92f4b17a508b42bc764691432
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Materials/tile-floor-texture-amazing-decoration-6.mat
+Dependencies: []

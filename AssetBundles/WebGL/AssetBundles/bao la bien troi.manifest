@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2916458629
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b2173c5bec303c42de71789ba737166
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ObjectData/Texture/Bao la bien troi.jpg
+Dependencies: []

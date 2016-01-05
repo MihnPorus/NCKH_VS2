@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1379605940
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e071bb52734039b6e0a938943d4f5d8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/GioiThieu/seafish2.jpg
+Dependencies: []

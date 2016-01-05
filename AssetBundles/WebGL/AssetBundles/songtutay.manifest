@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1990666780
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 483e07a7860aad19967e219414e84fa4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Song tu Tay-khoangcach.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/song tu tay -tran hung dao.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/song tu tay 3.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/song tu tay-tren dao.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Song tu Tay-rong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Dao Song tu Tay.JPG"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Song tu Tay-dientich.JPG"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Song tu Tay-vetinh.JPG"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/song tu tay - khi tuong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Song tu Tay-dai.jpg"
+- Assets/Sound/Dao_va_TenDao/Dao_SongTu_Tay.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Dao_SongTu_Tay.mp3
+Dependencies: []

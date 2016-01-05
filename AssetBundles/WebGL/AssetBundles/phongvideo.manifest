@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1565579939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7301038b0e37e1a2e313d04175af4354
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/Button&bangten/phongvideo.jpg
+Dependencies: []

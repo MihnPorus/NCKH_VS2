@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 930560409
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ccbf8e9d90ef40109714155a5a69c75c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/Tuong02.jpg
+Dependencies: []

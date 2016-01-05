@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4188502801
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94f355759210d79eff0f92495661f2c6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/bangten2.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/phongvideo

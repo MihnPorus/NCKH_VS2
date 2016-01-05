@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1534669307
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb26c8f95cd509653e90eeba0471a936
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Materials/wood _texture3133.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/khung tranh 01txture

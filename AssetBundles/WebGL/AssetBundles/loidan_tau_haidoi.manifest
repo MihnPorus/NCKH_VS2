@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1448507616
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad43f168608552a5a660ada7a7264686
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Khu mo hinh/Loidan_tau_haidoi.mp3
+Dependencies: []

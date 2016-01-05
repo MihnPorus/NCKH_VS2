@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3736675829
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 29f4ccd837248584ca54e8a1c859ea22
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/oldflag.png
+Dependencies: []

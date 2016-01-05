@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 4275123037
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 08ccf099731a98ad826eae45422b29bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Len \u0110ao/Len dao -vetinh.jpg"
+- Assets/Sound/Dao_va_TenDao/Baida_Lendao.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Lendao.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Len \u0110ao/Len dao[1].jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Len \u0110ao/Len dao -Sinh ton.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Len \u0110ao/Len dao -rong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Len \u0110ao/Len dao -dai.jpg"
+Dependencies: []

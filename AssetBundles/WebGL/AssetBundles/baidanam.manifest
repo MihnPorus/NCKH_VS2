@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 23589403
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 31d466d002b72893104765d69029a369
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Nam/Bai da nam.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Nam/da Nam - dai.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Nam/da Nam 3[1].jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Nam/Bai da nam-Song tu tay.jpg"
+- Assets/Sound/Dao_va_TenDao/Baida_Nam.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Nam.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Nam/da Nam - rong.jpg"
+Dependencies: []

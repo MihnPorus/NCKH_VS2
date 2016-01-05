@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 451220649
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 688beb3e0d5bf82879cda7f909ca24a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 79eb73ec2005253cc6c3ce00be4bbc4b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Water (Pro Only)/Sources/Textures/nightgradient cubemap.psd
+Dependencies: []

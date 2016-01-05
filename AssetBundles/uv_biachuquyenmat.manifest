@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3819387212
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6eaf20a78d7174b0c09336a63ee2d8d2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/Materials/UV_biachuquyen.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/uv_biachuquyentt

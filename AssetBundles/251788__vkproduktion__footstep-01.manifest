@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1533825568
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 860654e674d5d4a699db557fc58c546d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/251788__vkproduktion__footstep-01.wav
+Dependencies: []

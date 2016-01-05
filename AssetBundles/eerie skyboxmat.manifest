@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 919725492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d5d2dedf76bdf19a495b2dc7081623a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Skyboxes/Eerie Skybox.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_front
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_back
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_down
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_left
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_right
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/eerie_up

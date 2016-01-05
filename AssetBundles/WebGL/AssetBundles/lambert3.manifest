@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2962415278
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e7d7ac9232c22f66c7686ab9c17c4933
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 629335a92f4b17a508b42bc764691432
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/lambert3.mat
+Dependencies: []

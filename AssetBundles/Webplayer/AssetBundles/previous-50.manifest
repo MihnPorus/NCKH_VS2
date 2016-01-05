@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4264802747
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9cfc7c21683e353917dc0199da5905b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Script/View2DNew/Image/Previous-50.png
+Dependencies: []

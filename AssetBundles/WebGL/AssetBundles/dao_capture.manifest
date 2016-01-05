@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1579373699
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 72e3fda9b3465d2549a723f0628ccc0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/Dao_Capture.PNG
+Dependencies: []

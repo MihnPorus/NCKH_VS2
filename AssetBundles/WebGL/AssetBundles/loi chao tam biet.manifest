@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3030307884
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f5e7b1556222bbc6a2ee2bf4cb14809
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Khu mo hinh/Loi chao tam biet.mp3
+Dependencies: []

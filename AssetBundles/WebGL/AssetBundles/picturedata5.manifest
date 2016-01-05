@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 679207498
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5bdc2de35e91244cce6e087aee5703a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20825fdf7477e4fe729ebb1f6c66ccb5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Text_MieuTa/HoangTrieu_TrucTinh.txt
+- Assets/Anh truong sa/Anh dep/spites/hoang trieu truc tinh1.jpg
+- Assets/Anh truong sa/Anh dep/spites/hoang trieu truc tinh.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Hoangtrieu_tructinh.mp3
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Hoangtrieu_tructinh.mp3
+Dependencies: []

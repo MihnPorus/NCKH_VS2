@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1301019085
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b44711b6e1709714a806746da183c5f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Dao_AnBang.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - ve tinh.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang1.jpg"
+- Assets/Sound/Dao_va_TenDao/Ten_Dao_AnBang.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - khoangcach1.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - khoangcach2.jpg"
+Dependencies: []

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2398170950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 853dee65def1d89b25fd2b07a5f75f00
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d8047f0f96c16f07b182e4a7e93957db
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Water (Pro Only)/Sources/Materials/Daylight Water.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/water
+  fresnel
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/waterbump
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/water
+  fallback
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/oceangradientcube
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/oceangradient

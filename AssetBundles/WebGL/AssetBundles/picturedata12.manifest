@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1632521083
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e1db94005031a455958bc6ddcd62d326
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20825fdf7477e4fe729ebb1f6c66ccb5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Text_MieuTa/AnhTaiNguyen.txt
+- Assets/Anh truong sa/Anh dep/spites/seafish.jpg
+- Assets/Anh truong sa/Anh dep/spites/dau khi.jpg
+- Assets/Anh truong sa/Anh dep/spites/dau khi1.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_tainguyen.mp3
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_tainguyen.mp3
+Dependencies: []

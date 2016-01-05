@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2124214115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c37dd29220c1e1310aad7b4d9ecaa1d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/Bai da Dong/da dong - diem A2[1].jpg
+- Assets/Sound/Dao_va_TenDao/Baida_Dong.mp3
+- Assets/Anh Dao/Bai da Dong/da dong - rong.jpg
+- Assets/Anh Dao/Bai da Dong/Bai Da Dong-Chau Vien.jpg
+- Assets/Anh Dao/Bai da Dong/da dong - dientich.jpg
+- Assets/Anh Dao/Bai da Dong/da dong - dai.jpg
+- Assets/Anh Dao/Bai da Dong/Bai Da Dong-Cum Da Tay.jpg
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Dong.mp3
+- Assets/Anh Dao/Bai da Dong/da dong - ve tinh[1].jpg
+Dependencies: []

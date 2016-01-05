@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Auto\AutoMoveSystem.cs">
+    <Files>
+      <File FileName="Assets\Script\Data\ObjectActivate.cs" Line="24" Column="27" />
+      <File FileName="Assets\Script\Auto\View.cs" Line="44" Column="3" />
+      <File FileName="Assets\Prefab\ViewInstruction.cs" Line="72" Column="3" />
+      <File FileName="Assets\Script\Auto\AutoMoveSystem.cs" Line="117" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

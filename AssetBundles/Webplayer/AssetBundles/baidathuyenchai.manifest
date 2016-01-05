@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3953952748
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c4d13c7fcc053c4aa7938c756161038
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/Thuyen chai-rong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/Thuyen chai-dai.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/Thuyen chai-Truong Sa.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/Thuyen chai-An Bang.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/Thuyen chai-ve tinh.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 thuy\u1EC1n ch\xE0i/thuyen chai1.jpg"
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Thuyenchai.mp3
+- Assets/Sound/Dao_va_TenDao/Baida_Thuyenchai.mp3
+Dependencies: []

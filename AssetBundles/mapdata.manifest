@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 685028981
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9579557ced1e624e41f48d9cc0cc40c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Chitiet_Gioi thieu.mp3
+- Assets/Anh Dao/GioiThieu/bo Atlas2.jpg
+- Assets/Anh Dao/GioiThieu/So do bao tang2.jpg
+- Assets/Anh Dao/GioiThieu/Dai nam thong nhat toan do2.jpg
+- Assets/Anh Dao/GioiThieu/seafish2.jpg
+- Assets/Anh Dao/GioiThieu/an ninh quoc phong.jpg
+- Assets/Anh Dao/GioiThieu/Tu chi lo do thu2.jpg
+- Assets/Sound/Loidan_Gioithieu.mp3
+- Assets/Anh Dao/GioiThieu/So do chung-Saban 1.jpg
+- Assets/Anh Dao/GioiThieu/So do chung-chung tich 1.jpg
+- Assets/Anh Dao/GioiThieu/tai nguyen dau khi2.jpg
+- Assets/Anh Dao/GioiThieu/So do chung-Tu lieu 1.jpg
+- Assets/Anh Dao/GioiThieu/Saban-HoangSa-TruongSa 1.jpg
+- Assets/Anh Dao/GioiThieu/Vietnam cong hoa2.jpg
+- Assets/Anh Dao/GioiThieu/Saban 2.jpg
+- Assets/Anh Dao/GioiThieu/hoang trieu truc tinh2.jpg
+- Assets/Anh Dao/GioiThieu/So do chung-mo hinh 1.jpg
+- Assets/Anh Dao/GioiThieu/tauhaidoi2.jpg
+- Assets/Anh Dao/GioiThieu/tauca2.jpg
+Dependencies: []

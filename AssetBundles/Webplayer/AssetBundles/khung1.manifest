@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 404151846
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3ad4b48f18219e44642cc6710efe3d4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/khung1.png
+Dependencies: []

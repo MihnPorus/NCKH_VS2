@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 326950511
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8e16e8659e6a32d5b20fa838fa7dc4de
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Loidan_trong dao Truong Sa.mp3
+Dependencies: []

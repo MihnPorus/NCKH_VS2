@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1869142059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 80e2753096a01de3b5db0228e8b008e9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db27bf5f922d56724daec9d7dfa11a23
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel8.prefab
+- Assets/Anh truong sa/Anh dep/Thuc luc chinh bien quyen 52.png
+- Assets/Materials/Materials tranh/A09_To quoc gan ben.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/lambert4
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/lambert1
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/lambert2
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/lambert3
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/lambert5
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/tile-floor-texture-amazing-decoration-6
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/texture san
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/wood_texture3133mat

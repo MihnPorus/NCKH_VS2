@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 489381175
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b37aa09f18a25b36ec69e1994e15a86e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui Le - Toc tan.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui le -ho-rong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui Le - ho-dai.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui le -rong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui le -ve tinh.jpg"
+- Assets/Sound/Dao_va_TenDao/Baida_NuiLe.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui Le - dai.jpg"
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_NuiLe.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 N\xFAi Le/Nui le[1].jpg"
+Dependencies: []

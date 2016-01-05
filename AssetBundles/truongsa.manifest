@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 562065502
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7fb94c8fb44bdb79f93b37073b7ec1e1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa3.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_CauCang.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa1.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa-tamgiac.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/Dao_TruongSa_Khituong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_HaiDang.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa-rong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/Duong bang tren dao.JPG"
+- Assets/Anh Dao/BandoVN/TruongSa.jpg
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_Nhatuongniem.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_tuongdailietsy.jpg"
+- Assets/Sound/Dao_va_TenDao/Ten_Dao_TruongSa.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_dientich.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/Dien gio tren dao.jpg"
+- Assets/Sound/Dao_va_TenDao/Dao_TruongSa1.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa-dai.jpg"
+Dependencies: []

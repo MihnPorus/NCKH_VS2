@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3325381692
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 325dc2b41ff1521902092d9cfa623656
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/Materials/logo multi rev.mat"
+- "Assets/Anh Dao/\u0110\u1EA3o Song T\u1EED T\xE2y/logo multi rev.png"
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1346364880
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: acdccd15bc5a5272f9ffe14bd8852de3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/vn-map.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/vn-maptt

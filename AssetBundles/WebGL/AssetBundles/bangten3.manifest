@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3546786705
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bdf257ea61aef65e28ef890611ad4efd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac4ad4a9b4e5b2e0ba08f3ecef76be3c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/bangten3.mat
+Dependencies:
+- E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/AssetBundles/WebGL/AssetBundles/phongsinhvat

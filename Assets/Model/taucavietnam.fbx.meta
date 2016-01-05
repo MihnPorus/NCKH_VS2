@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: c42f7a48dd92c3f42854faf3a7b33a83
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: pCube3
+    100002: tauca:tauca:tauca:boat_fishing_02:null_
+    100004: tauca:tauca:tauca:boat_fishing_02:null_1
+    100006: tauca:tauca:tauca:boat_fishing_02:null_10
+    100008: tauca:tauca:tauca:boat_fishing_02:null_11
+    100010: tauca:tauca:tauca:boat_fishing_02:null_2
+    100012: tauca:tauca:tauca:boat_fishing_02:null_3
+    100014: tauca:tauca:tauca:boat_fishing_02:null_4
+    100016: tauca:tauca:tauca:boat_fishing_02:null_5
+    100018: tauca:tauca:tauca:boat_fishing_02:null_6
+    100020: tauca:tauca:tauca:boat_fishing_02:null_7
+    100022: tauca:tauca:tauca:boat_fishing_02:null_8
+    100024: tauca:tauca:tauca:boat_fishing_02:null_9
+    100026: //RootNode
+    100028: wave3Handle
+    400000: pCube3
+    400002: tauca:tauca:tauca:boat_fishing_02:null_
+    400004: tauca:tauca:tauca:boat_fishing_02:null_1
+    400006: tauca:tauca:tauca:boat_fishing_02:null_10
+    400008: tauca:tauca:tauca:boat_fishing_02:null_11
+    400010: tauca:tauca:tauca:boat_fishing_02:null_2
+    400012: tauca:tauca:tauca:boat_fishing_02:null_3
+    400014: tauca:tauca:tauca:boat_fishing_02:null_4
+    400016: tauca:tauca:tauca:boat_fishing_02:null_5
+    400018: tauca:tauca:tauca:boat_fishing_02:null_6
+    400020: tauca:tauca:tauca:boat_fishing_02:null_7
+    400022: tauca:tauca:tauca:boat_fishing_02:null_8
+    400024: tauca:tauca:tauca:boat_fishing_02:null_9
+    400026: //RootNode
+    400028: wave3Handle
+    2300000: pCube3
+    2300002: tauca:tauca:tauca:boat_fishing_02:null_
+    2300004: tauca:tauca:tauca:boat_fishing_02:null_1
+    2300006: tauca:tauca:tauca:boat_fishing_02:null_10
+    2300008: tauca:tauca:tauca:boat_fishing_02:null_11
+    2300010: tauca:tauca:tauca:boat_fishing_02:null_2
+    2300012: tauca:tauca:tauca:boat_fishing_02:null_3
+    2300014: tauca:tauca:tauca:boat_fishing_02:null_4
+    2300016: tauca:tauca:tauca:boat_fishing_02:null_5
+    2300018: tauca:tauca:tauca:boat_fishing_02:null_6
+    2300020: tauca:tauca:tauca:boat_fishing_02:null_7
+    2300022: tauca:tauca:tauca:boat_fishing_02:null_8
+    2300024: tauca:tauca:tauca:boat_fishing_02:null_9
+    3300000: pCube3
+    3300002: tauca:tauca:tauca:boat_fishing_02:null_
+    3300004: tauca:tauca:tauca:boat_fishing_02:null_1
+    3300006: tauca:tauca:tauca:boat_fishing_02:null_10
+    3300008: tauca:tauca:tauca:boat_fishing_02:null_11
+    3300010: tauca:tauca:tauca:boat_fishing_02:null_2
+    3300012: tauca:tauca:tauca:boat_fishing_02:null_3
+    3300014: tauca:tauca:tauca:boat_fishing_02:null_4
+    3300016: tauca:tauca:tauca:boat_fishing_02:null_5
+    3300018: tauca:tauca:tauca:boat_fishing_02:null_6
+    3300020: tauca:tauca:tauca:boat_fishing_02:null_7
+    3300022: tauca:tauca:tauca:boat_fishing_02:null_8
+    3300024: tauca:tauca:tauca:boat_fishing_02:null_9
+    4300000: tauca:tauca:tauca:boat_fishing_02:null_
+    4300002: tauca:tauca:tauca:boat_fishing_02:null_1
+    4300004: tauca:tauca:tauca:boat_fishing_02:null_2
+    4300006: tauca:tauca:tauca:boat_fishing_02:null_3
+    4300008: tauca:tauca:tauca:boat_fishing_02:null_4
+    4300010: tauca:tauca:tauca:boat_fishing_02:null_5
+    4300012: tauca:tauca:tauca:boat_fishing_02:null_6
+    4300014: tauca:tauca:tauca:boat_fishing_02:null_7
+    4300016: tauca:tauca:tauca:boat_fishing_02:null_8
+    4300018: tauca:tauca:tauca:boat_fishing_02:null_9
+    4300020: tauca:tauca:tauca:boat_fishing_02:null_10
+    4300022: tauca:tauca:tauca:boat_fishing_02:null_11
+    4300024: pCube3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

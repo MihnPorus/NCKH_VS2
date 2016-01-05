@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1966472417
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e98ca7d84cdb48a2088e3ddfbde83398
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/To quoc goi ten minh - NSND Quang Tho.mp3
+Dependencies: []

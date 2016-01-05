@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 4200498111
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9d3bc3428d6dd98ad083f9755fb8d72a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/\u0110\u1EA3o Phan Vinh/phan vinh[1].jpg"
+- Assets/Sound/Dao_va_TenDao/Dao_PhanVinh.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Dao_PhanVinh.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Phan Vinh/phan vinh - chau vien.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Phan Vinh/phan vinh - ve tinh[1].jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Phan Vinh/phan vinh - dai.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Phan Vinh/phan vinh - toc tan.jpg"
+Dependencies: []

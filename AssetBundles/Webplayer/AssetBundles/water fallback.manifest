@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4089061428
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40326ce4b836ecbda3817dd0a5ab3f2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Standard Assets/Water (Pro Only)/Sources/Textures/Water fallback.jpg
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1082560433
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4de65138aa4ffe9b467a10f0df77f0ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/BandoVN/Biendong1.jpg
+Dependencies: []

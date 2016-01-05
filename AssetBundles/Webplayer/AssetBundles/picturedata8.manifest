@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 328650405
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0353d937da664d365f625cd8b4e2b8aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20825fdf7477e4fe729ebb1f6c66ccb5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 52.jpg
+- Assets/Anh truong sa/Text_MieuTa/DaiNamThucLucChinhBien.txt
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 154_1.jpg
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 104.jpg
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 154.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Dainam_thucluc_chinhbien.mp3
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 104_1.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Dainam_thucluc_chinhbien.mp3
+- Assets/Anh truong sa/Anh dep/spites/Thuc luc chinh bien quyen 52_1.jpg
+Dependencies: []

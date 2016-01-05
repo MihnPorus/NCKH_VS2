@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3777537801
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d2f32431ea96eaab6d72358cc0a65a5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af88d20041710894e27c4bb955318d58
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Baida_Lon.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Lon.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/Da lon-dai.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/Da lon-rong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/Da lon-dientich1.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/da lon[1].jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/Da lon-Nam Yet.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 l\u1EDBn/da lon - diem B1.jpg"
+Dependencies: []

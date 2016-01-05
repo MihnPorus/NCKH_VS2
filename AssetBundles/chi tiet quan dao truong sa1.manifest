@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 120862893
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a69d829bec022ed017ce657574c430c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Chi tiet quan dao Truong Sa1.mp3
+Dependencies: []

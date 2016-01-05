@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3863409709
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a6d19073ff2b66d76f8e514139119d5f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 00ffc586b3c4c12c72c7fed589b81235
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Script/View2DNew/Image/Play-50.png
+Dependencies: []

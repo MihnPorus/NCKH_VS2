@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3870749490
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06e31f4229684476637844106ad6048e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/Texture san.jpg
+Dependencies: []
