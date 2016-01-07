@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class BiaChuQuyen : Item {
 
@@ -110,25 +111,7 @@ public class BiaChuQuyen : Item {
     {
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(data.GetAudio(1));
-
-            AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.introAudio = request.GetAsset<AudioClip>();
-
-
-
-            request = BundleManager.LoadAssetAsync(data.audioBundle[2], data.audioBundle[3], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.detailAudio = request.GetAsset<AudioClip>();
-
-            BundleManager.UnloadBundle(data.audioBundle[0]);
-
-            //Debug.Log(data.introAudio + " - " + data.detailAudio);
+            yield return StartCoroutine(DownloadData());
         }
         model.GetComponent<Renderer>().material.color = Color.red;
         //yield return StartCoroutine(data.PlayAudio(source, true));
@@ -183,5 +166,26 @@ public class BiaChuQuyen : Item {
         model.GetComponent<Renderer>().material.color = Color.white;
     }
 
-    
+    public override IEnumerator DownloadData()
+    {
+        yield return StartCoroutine(data.GetAudio(1));
+
+        AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        data.introAudio = request.GetAsset<AudioClip>();
+
+
+
+        request = BundleManager.LoadAssetAsync(data.audioBundle[2], data.audioBundle[3], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        data.detailAudio = request.GetAsset<AudioClip>();
+
+        BundleManager.UnloadBundle(data.audioBundle[0]);
+
+        //Debug.Log(data.introAudio + " - " + data.detailAudio);
+    }
 }

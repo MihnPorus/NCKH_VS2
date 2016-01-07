@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System;
 
 public class SaBan : Item {
 
@@ -25,32 +26,10 @@ public class SaBan : Item {
             temp.id = ids[i];
             data.Add(temp);
         }
-            StartCoroutine(data[0].GetAudio(1));
+        StartCoroutine(data[0].GetAudio(1));
         StartCoroutine(data[0].GetText(1));
         StartCoroutine(data[0].GetSprites());
-        //yield return StartCoroutine(data[0].GetModel());
-        //while (!Loader.isManifestOK)
-        //    yield return null;
-
-        //// Download and Instantiate MODEL
-        //AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data[0].modelBundle[0], data[0].modelBundle[1], typeof(GameObject));
-        //if (request == null)
-        //    yield break;
-        //yield return StartCoroutine(request);
-
-        //GameObject obj = request.GetAsset<GameObject>();
-        ////Debug.Log(obj);
-        //if (obj != null)
-        //{
-        //    model = Instantiate(obj) as GameObject;
-
-        //    model.transform.parent = gameObject.transform;
-
-        //    model.transform.localPosition = Vector3.zero;
-        //    model.transform.localRotation = Quaternion.identity;
-        //}
-
-        //BundleManager.UnloadBundle(data[0].modelBundle[0]);
+        
 
         aSource = GetComponent<AudioSource>();
 
@@ -367,5 +346,10 @@ public class SaBan : Item {
             default:
                 break;
         }
+    }
+
+    public override IEnumerator DownloadData()
+    {
+        throw new NotImplementedException();
     }
 }

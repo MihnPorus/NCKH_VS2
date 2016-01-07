@@ -21,40 +21,18 @@ public class Picture : Item {
         audioSource = GetComponent<AudioSource>();
     }
 
-    void Start()
+    IEnumerator Start()
     {
         data = new PictureData();
 
         data.id = id;
         //yield return StartCoroutine(data.GetModel());
-        StartCoroutine(data.GetAudio(1));
-        StartCoroutine(data.GetText(1));
-        StartCoroutine(data.GetSprites());
+
+        yield return StartCoroutine(data.GetAudio(1));
+        yield return StartCoroutine(data.GetText(1));
+        yield return StartCoroutine(data.GetSprites());
+        StartCoroutine(data.Download());
         
-        //while (!Loader.isManifestOK)
-        //    yield return null;
-
-        //// Download and Instantiate MODEL
-        //AssetBundleLoadAssetOperation request = 
-        //    BundleManager.LoadAssetAsync(data.modelBundle[0], data.modelBundle[1], typeof(GameObject));
-        //if (request == null)
-        //    yield break;
-        //yield return StartCoroutine(request);
-
-        //GameObject obj = request.GetAsset<GameObject>();
-        ////Debug.Log(obj);
-        //if (obj != null)
-        //{
-        //    model = Instantiate(obj) as GameObject;
-            
-        //    model.transform.parent = gameObject.transform;
-
-        //    model.transform.localPosition = Vector3.zero;
-        //    model.transform.localRotation = Quaternion.identity;
-        //}
-
-        //BundleManager.UnloadBundle(data.modelBundle[0]);
-
 
         // Nhan su kien
         EventManager.Instance.AddListener("OnShowTime", OnEvent);
@@ -89,7 +67,7 @@ public class Picture : Item {
     }
 
     // Download dữ liệu dựa theo id
-    IEnumerator DownloadData()
+    public override IEnumerator DownloadData()
     {
         
 
@@ -179,7 +157,7 @@ public class Picture : Item {
     {
         if (data.introAudio == null)
         {
-
+            Debug.Log("Van null");
             yield return StartCoroutine(DownloadData());
         }
         model.GetComponent<Renderer>().material.color = Color.red;
@@ -347,7 +325,7 @@ public class PictureData
                 isCancel = true;
                 yield break;
             }
-            
+
             yield return null;
         }
     }
@@ -477,5 +455,66 @@ public class PictureData
         }
     }
 
+    public IEnumerator Download()
+    {
+        #region DownloadContent
 
+        AssetBundleLoadAssetOperation request =
+            BundleManager.LoadAssetAsync(audioBundle[0], audioBundle[1], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        introAudio = request.GetAsset<AudioClip>();
+
+        //Debug.Log(data.introAudio);
+
+        //request = null;
+        request = BundleManager.LoadAssetAsync(audioBundle[2], audioBundle[3], typeof(AudioClip));
+        //Debug.Log(request);
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        detailAudio = request.GetAsset<AudioClip>();
+
+        //Debug.Log(data.detailAudio);
+        //=======================
+
+        // Download text================
+        Debug.Log(textBundle[0]);
+        if (!textBundle[0].Trim().Equals(""))
+        {
+            request = BundleManager.LoadAssetAsync(textBundle[0], textBundle[1], typeof(TextAsset));
+            if (request == null)
+                yield break;
+            yield return StartCoroutine(request);
+            //Debug.Log(request.GetAsset<TextAsset>());
+            text = request.GetAsset<TextAsset>();
+
+            Debug.Log(text);
+        }
+        // ==============================
+
+        // Download sprites================
+
+        int size = spriteBundle.Length - 1;
+        for (int i = 0; i < size; i += 2)
+        {
+            request = BundleManager.LoadAssetAsync(spriteBundle[i], spriteBundle[i + 1], typeof(Sprite));
+            if (request == null)
+                yield break;
+            yield return StartCoroutine(request);
+            sprites.Add(request.GetAsset<Sprite>());
+        }
+        // =====================================
+
+        BundleManager.UnloadBundle(audioBundle[0]);
+
+        #endregion
+    }
+
+    private IEnumerator StartCoroutine(IEnumerator x)
+    {
+        while (x.MoveNext()) ;
+        yield return null;
+    }
 }

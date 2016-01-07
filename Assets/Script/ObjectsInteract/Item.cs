@@ -14,6 +14,8 @@ public abstract class Item : MonoBehaviour {
 
     abstract public IEnumerator OnClick();
 
+    abstract public IEnumerator DownloadData();
+
     public void OnMouseDown()
     {
         if (isInteractable)

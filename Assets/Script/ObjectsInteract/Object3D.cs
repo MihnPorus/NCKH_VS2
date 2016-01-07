@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class Object3D : Item {
 
@@ -91,26 +92,7 @@ public class Object3D : Item {
     {
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(data.GetAudio(1));
-
-            AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.introAudio = request.GetAsset<AudioClip>();
-
-            
-
-            request = BundleManager.LoadAssetAsync(data.audioBundle[2], data.audioBundle[3], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.detailAudio = request.GetAsset<AudioClip>();
-
-            BundleManager.UnloadBundle(data.audioBundle[0]);
-
-            data.model.GetComponent<Renderer>().material.color = Color.white;
-
+            yield return StartCoroutine(DownloadData());
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
         }
         model.GetComponent<Renderer>().material.color = Color.red;
@@ -123,25 +105,7 @@ public class Object3D : Item {
     {
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(data.GetAudio(1));
-
-            AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.introAudio = request.GetAsset<AudioClip>();
-
-
-
-            request = BundleManager.LoadAssetAsync(data.audioBundle[2], data.audioBundle[3], typeof(AudioClip));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            data.detailAudio = request.GetAsset<AudioClip>();
-
-            BundleManager.UnloadBundle(data.audioBundle[0]);
-
-            
+            yield return StartCoroutine(DownloadData());
         }
         model.GetComponent<Renderer>().material.color = Color.red;
 
@@ -166,12 +130,31 @@ public class Object3D : Item {
         clickCount = 0;
     }
 
-    
+    public override IEnumerator DownloadData()
+    {
+        yield return StartCoroutine(data.GetAudio(1));
+
+        AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        data.introAudio = request.GetAsset<AudioClip>();
+
+
+
+        request = BundleManager.LoadAssetAsync(data.audioBundle[2], data.audioBundle[3], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        data.detailAudio = request.GetAsset<AudioClip>();
+
+        BundleManager.UnloadBundle(data.audioBundle[0]);
+    }
 }
 
 
 
-public class Object3Ddata : MonoBehaviour
+public class Object3Ddata
 {
     #region Define const to get data from DB
 
@@ -278,5 +261,32 @@ public class Object3Ddata : MonoBehaviour
                 audioBundle[i] = audioBundle[i].TrimStart().TrimEnd();
             }
         }
+    }
+
+    IEnumerator StartCoroutine(IEnumerator x)
+    {
+        while (x.MoveNext()) ;
+        yield return null;
+    }
+
+    public IEnumerator Download()
+    {
+        yield return StartCoroutine(GetAudio(1));
+
+        AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(audioBundle[0], audioBundle[1], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        introAudio = request.GetAsset<AudioClip>();
+
+
+
+        request = BundleManager.LoadAssetAsync(audioBundle[2], audioBundle[3], typeof(AudioClip));
+        if (request == null)
+            yield break;
+        yield return StartCoroutine(request);
+        detailAudio = request.GetAsset<AudioClip>();
+
+        BundleManager.UnloadBundle(audioBundle[0]);
     }
 }

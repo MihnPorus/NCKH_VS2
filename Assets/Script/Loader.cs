@@ -9,6 +9,7 @@ public class Loader : MonoBehaviour {
 
     public GameObject eventManager;
     public GameObject instructionView;
+    public GameObject dataStorage;
 
     public static bool isManifestOK = false;
 	// Use this for initialization
@@ -18,6 +19,7 @@ public class Loader : MonoBehaviour {
 
         Instantiate(eventManager);
         Instantiate(instructionView);
+        Instantiate(dataStorage);
 
         AssetBundleLoadOperation request = BundleManager.LoadLevelAsync(levelBundleName, levelName, true);
         if (request == null)
