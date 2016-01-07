@@ -31,7 +31,6 @@ public class Picture : Item {
         yield return StartCoroutine(data.GetAudio(1));
         yield return StartCoroutine(data.GetText(1));
         yield return StartCoroutine(data.GetSprites());
-        StartCoroutine(data.Download());
         
 
         // Nhan su kien
@@ -455,66 +454,5 @@ public class PictureData
         }
     }
 
-    public IEnumerator Download()
-    {
-        #region DownloadContent
-
-        AssetBundleLoadAssetOperation request =
-            BundleManager.LoadAssetAsync(audioBundle[0], audioBundle[1], typeof(AudioClip));
-        if (request == null)
-            yield break;
-        yield return StartCoroutine(request);
-        introAudio = request.GetAsset<AudioClip>();
-
-        //Debug.Log(data.introAudio);
-
-        //request = null;
-        request = BundleManager.LoadAssetAsync(audioBundle[2], audioBundle[3], typeof(AudioClip));
-        //Debug.Log(request);
-        if (request == null)
-            yield break;
-        yield return StartCoroutine(request);
-        detailAudio = request.GetAsset<AudioClip>();
-
-        //Debug.Log(data.detailAudio);
-        //=======================
-
-        // Download text================
-        Debug.Log(textBundle[0]);
-        if (!textBundle[0].Trim().Equals(""))
-        {
-            request = BundleManager.LoadAssetAsync(textBundle[0], textBundle[1], typeof(TextAsset));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            //Debug.Log(request.GetAsset<TextAsset>());
-            text = request.GetAsset<TextAsset>();
-
-            Debug.Log(text);
-        }
-        // ==============================
-
-        // Download sprites================
-
-        int size = spriteBundle.Length - 1;
-        for (int i = 0; i < size; i += 2)
-        {
-            request = BundleManager.LoadAssetAsync(spriteBundle[i], spriteBundle[i + 1], typeof(Sprite));
-            if (request == null)
-                yield break;
-            yield return StartCoroutine(request);
-            sprites.Add(request.GetAsset<Sprite>());
-        }
-        // =====================================
-
-        BundleManager.UnloadBundle(audioBundle[0]);
-
-        #endregion
-    }
-
-    private IEnumerator StartCoroutine(IEnumerator x)
-    {
-        while (x.MoveNext()) ;
-        yield return null;
-    }
+    
 }
