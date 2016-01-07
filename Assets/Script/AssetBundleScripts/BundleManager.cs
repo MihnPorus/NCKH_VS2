@@ -197,9 +197,9 @@ public class BundleManager : MonoBehaviour
 
         WWW www = new WWW(baseURL + manifestName);
         yield return www;
-        //Debug.Log(www);
+        Debug.Log(www);
         AssetBundle manifestBundle = www.assetBundle;
-        //Debug.Log(manifestBundle);
+        Debug.Log(manifestBundle);
         manifest = manifestBundle.LoadAsset("AssetBundleManifest") as AssetBundleManifest;
         //Debug.Log(manifest);
         manifestBundle.Unload(false);
