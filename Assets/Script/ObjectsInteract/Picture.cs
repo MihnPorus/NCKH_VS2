@@ -31,7 +31,7 @@ public class Picture : Item {
         yield return StartCoroutine(data.GetAudio(1));
         yield return StartCoroutine(data.GetText(1));
         yield return StartCoroutine(data.GetSprites());
-        StartCoroutine(DataStorage.Instance.Download(this, true));
+        StartCoroutine(DataStorage.Instance.DownloadPicture(this, true));
 
         // Nhan su kien
         EventManager.Instance.AddListener("OnShowTime", OnEvent);
@@ -131,9 +131,11 @@ public class Picture : Item {
     // Tự động play 
     IEnumerator AutoPlayContent()
     {
+        // Hiệu ứng chờ download thì play ở đây
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(DownloadData());
+            // Hiệu ứng khi chờ download đặt ở đây
+            yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
         }
         model.GetComponent<Renderer>().material.color = Color.red;
         // Play intro audio
@@ -154,12 +156,14 @@ public class Picture : Item {
 
     IEnumerator ManualPlayContent()
     {
+        // Đổi màu hiện vật
+        model.GetComponent<Renderer>().material.color = Color.red;
         if (data.introAudio == null)
         {
-            Debug.Log("Van null");
-            //yield return StartCoroutine(DownloadData());
+            // Hiệu ứng khi chờ download đặt ở đây
+            yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
         }
-        model.GetComponent<Renderer>().material.color = Color.red;
+        
         clickCount=1;
         IEnumerator routine = data.PlayAudio(audioSource, true);
         StartCoroutine(routine);

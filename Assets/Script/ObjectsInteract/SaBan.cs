@@ -61,62 +61,62 @@ public class SaBan : Item {
     // Download du lieu thu number
     IEnumerator DownloadData(int number)
     {
-        if (number >= numberOfData)
-            yield return null;
-
-
-        #region DownloadContent
-
-        // Download audio================
-        yield return StartCoroutine(data[number].GetAudio(1));
-        AssetBundleLoadAssetOperation request =
-            BundleManager.LoadAssetAsync(data[number].audioBundle[0], data[number].audioBundle[1], typeof(AudioClip));
-        if (request == null)
-            yield break;
-        yield return StartCoroutine(request);
-        data[number].introAudio = request.GetAsset<AudioClip>();
-
-        //Debug.Log(data.introAudio);
-
-        //request = null;
-        request = BundleManager.LoadAssetAsync(data[number].audioBundle[2], data[number].audioBundle[3], typeof(AudioClip));
-        //Debug.Log(request);
-        if (request == null)
-            yield break;
-        yield return StartCoroutine(request);
-        data[number].detailAudio = request.GetAsset<AudioClip>();
-
-        //Debug.Log(data.detailAudio);
-        //=======================
-
-        // Download text================
-        //bundleName = "";
-        //assetName = "";
-        //request = null;
-        //DBManager.Instance.GetText(ids[number], ref bundleName, ref assetName);
-        //request = BundleManager.LoadAssetAsync(bundleName, assetName, typeof(TextAsset));
-        //if (request == null)
-        //    yield break;
-        //yield return StartCoroutine(request);
-        ////Debug.Log(request.GetAsset<TextAsset>());
-        //temp.text = request.GetAsset<TextAsset>();
-
-        //Debug.Log(temp.text);
-        // ==============================
-
-        // Download sprites================
-        yield return StartCoroutine(data[number].GetSprites());
-        int size = data[number].spriteBundle.Length - 1;
-        for (int i = 0; i < size; i += 2)
+        if (number < numberOfData)
         {
-            request = BundleManager.LoadAssetAsync(data[number].spriteBundle[i], data[number].spriteBundle[i + 1], typeof(Sprite));
+            #region DownloadContent
+
+            // Download audio================
+            yield return StartCoroutine(data[number].GetAudio(1));
+            AssetBundleLoadAssetOperation request =
+                BundleManager.LoadAssetAsync(data[number].audioBundle[0], data[number].audioBundle[1], typeof(AudioClip));
             if (request == null)
                 yield break;
             yield return StartCoroutine(request);
-            data[number].sprites.Add(request.GetAsset<Sprite>());
-        } 
-        BundleManager.UnloadBundle(data[number].audioBundle[0]);
-        #endregion
+            data[number].introAudio = request.GetAsset<AudioClip>();
+
+            //Debug.Log(data.introAudio);
+
+            //request = null;
+            request = BundleManager.LoadAssetAsync(data[number].audioBundle[2], data[number].audioBundle[3], typeof(AudioClip));
+            //Debug.Log(request);
+            if (request == null)
+                yield break;
+            yield return StartCoroutine(request);
+            data[number].detailAudio = request.GetAsset<AudioClip>();
+
+            //Debug.Log(data.detailAudio);
+            //=======================
+
+            // Download text================
+            //bundleName = "";
+            //assetName = "";
+            //request = null;
+            //DBManager.Instance.GetText(ids[number], ref bundleName, ref assetName);
+            //request = BundleManager.LoadAssetAsync(bundleName, assetName, typeof(TextAsset));
+            //if (request == null)
+            //    yield break;
+            //yield return StartCoroutine(request);
+            ////Debug.Log(request.GetAsset<TextAsset>());
+            //temp.text = request.GetAsset<TextAsset>();
+
+            //Debug.Log(temp.text);
+            // ==============================
+
+            // Download sprites================
+            yield return StartCoroutine(data[number].GetSprites());
+            int size = data[number].spriteBundle.Length - 1;
+            for (int i = 0; i < size; i += 2)
+            {
+                request = BundleManager.LoadAssetAsync(data[number].spriteBundle[i], data[number].spriteBundle[i + 1], typeof(Sprite));
+                if (request == null)
+                    yield break;
+                yield return StartCoroutine(request);
+                data[number].sprites.Add(request.GetAsset<Sprite>());
+            }
+            BundleManager.UnloadBundle(data[number].audioBundle[0]);
+            #endregion
+        }
+
     }
 
     // Tu dong download lan luot noi dung
@@ -350,6 +350,6 @@ public class SaBan : Item {
 
     public override IEnumerator DownloadData()
     {
-        throw new NotImplementedException();
+        yield return null;
     }
 }

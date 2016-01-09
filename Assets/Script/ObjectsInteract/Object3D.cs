@@ -8,18 +8,18 @@ public class Object3D : Item {
     public GameObject modelPrefab;
 
     // Cache dữ liệu
-    Object3Ddata data;
+    public Object3Ddata data;
     AudioSource source;
     int clickCount = 0;
 	// Use this for initialization
-	void Start ()
+	IEnumerator Start ()
     {
         #region Download Model at the start
         data = new Object3Ddata();
         data.id = id;
-        StartCoroutine(data.GetAudio(1));
+        yield return StartCoroutine(data.GetAudio(1));
         data.model = modelPrefab;
-        
+        StartCoroutine(DataStorage.Instance.DownloadObject3D(this, true));
 
         #endregion
 
@@ -90,12 +90,13 @@ public class Object3D : Item {
 
     public IEnumerator AutoPlayContent()
     {
+        model.GetComponent<Renderer>().material.color = Color.red;
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(DownloadData());
+            yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
         }
-        model.GetComponent<Renderer>().material.color = Color.red;
+        
         yield return StartCoroutine(data.PlayAudio(source, true));
         //data.model.GetComponent<Renderer>().material.color = Color.white;
         EventManager.Instance.PostNotification("On3DShow", this, data);
@@ -103,11 +104,12 @@ public class Object3D : Item {
 
     IEnumerator ManualPlayContent()
     {
+        model.GetComponent<Renderer>().material.color = Color.red;
         if (data.introAudio == null)
         {
-            yield return StartCoroutine(DownloadData());
+            yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
         }
-        model.GetComponent<Renderer>().material.color = Color.red;
+        
 
         clickCount = 1;
         IEnumerator routine = data.PlayAudio(source, true);
@@ -132,8 +134,6 @@ public class Object3D : Item {
 
     public override IEnumerator DownloadData()
     {
-        yield return StartCoroutine(data.GetAudio(1));
-
         AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
         if (request == null)
             yield break;

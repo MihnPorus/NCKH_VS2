@@ -18,9 +18,10 @@ public class View3D : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            StopAllCoroutines();
             if (model != null)
                 Destroy(model);
+            StopAllCoroutines();
+            
             EventManager.Instance.PostNotification("OnEndOfView3D", this, data.id);
             gameObject.SetActive(false);
         }
