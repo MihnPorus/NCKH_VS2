@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Picture : Item {
 
     // Cache dữ liệu đã download
-    PictureData data = null;
+    public PictureData data = null;
 
     AudioSource audioSource;
     // Thứ tự lộ trình
@@ -31,7 +31,7 @@ public class Picture : Item {
         yield return StartCoroutine(data.GetAudio(1));
         yield return StartCoroutine(data.GetText(1));
         yield return StartCoroutine(data.GetSprites());
-        
+        StartCoroutine(DataStorage.Instance.Download(this, true));
 
         // Nhan su kien
         EventManager.Instance.AddListener("OnShowTime", OnEvent);
@@ -157,7 +157,7 @@ public class Picture : Item {
         if (data.introAudio == null)
         {
             Debug.Log("Van null");
-            yield return StartCoroutine(DownloadData());
+            //yield return StartCoroutine(DownloadData());
         }
         model.GetComponent<Renderer>().material.color = Color.red;
         clickCount=1;
