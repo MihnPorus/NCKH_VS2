@@ -6,7 +6,7 @@ using System;
 
 public class SaBan : Item {
 
-    List<PictureData> data;
+    public List<PictureData> data;
 
     public List<int> ids;
     public List<float> mTime;
@@ -18,7 +18,7 @@ public class SaBan : Item {
     AudioSource aSource;
     int clickCount = 0;
     
-	void Start () {
+	IEnumerator Start () {
         data = new List<PictureData>();
         for (int i = 0; i < numberOfData; i++)
         {
@@ -26,10 +26,11 @@ public class SaBan : Item {
             temp.id = ids[i];
             data.Add(temp);
         }
-        StartCoroutine(data[0].GetAudio(1));
-        StartCoroutine(data[0].GetText(1));
-        StartCoroutine(data[0].GetSprites());
-        
+        yield return StartCoroutine(data[0].GetAudio(1));
+        yield return StartCoroutine(data[0].GetText(1));
+        yield return StartCoroutine(data[0].GetSprites());
+
+        StartCoroutine(DataStorage.Instance.DownloadSaban(this, true));
 
         aSource = GetComponent<AudioSource>();
 
@@ -130,7 +131,7 @@ public class SaBan : Item {
             // yield return download du lieu dau tien o day
             #region First Data
 
-            yield return StartCoroutine(DownloadData(0));
+            yield return StartCoroutine(DataStorage.Instance.DownloadSaban(this, false));
 
 
             List<float> tempTime = new List<float>();
@@ -181,7 +182,7 @@ public class SaBan : Item {
             // yield return download du lieu dau tien o day
             #region First Data
 
-            yield return StartCoroutine(DownloadData(0));
+            yield return StartCoroutine(DataStorage.Instance.DownloadSaban(this, false));
 
 
             List<float> tempTime = new List<float>();
@@ -209,32 +210,7 @@ public class SaBan : Item {
         aSource.Stop();
         Debug.Log(clickCount);
         Debug.Log(data[0].isCancel);
-        //if (data[0].isCancel || clickCount < 2)
-        //{
-
-        //    EventManager.Instance.PostNotification("OnEndOfView2D", this, id);
-        //    Debug.Log("abc");
-        //    yield return null;
-        //}
         
-        //else
-        //{
-        //    MoveCharator.isRotatable = false;
-        //    EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
-        //    yield return StartCoroutine(DownloadData(1));
-
-        //    for (int i = 7; i < 11; i++)
-        //    {
-        //        data[1].imgTime.Add(mTime[i]);
-        //    }
-
-        //    yield return StartCoroutine(DownloadData(2));
-
-        //    for (int i = 11; i < 18; i++)
-        //    {
-        //        data[2].imgTime.Add(mTime[i]);
-        //    }
-        //}
         if (data[0].isCancel || clickCount < 2)
         {
 
@@ -247,14 +223,11 @@ public class SaBan : Item {
         {
             MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
-            yield return StartCoroutine(DownloadData(1));
 
             for (int i = 7; i < 11; i++)
             {
                 data[1].imgTime.Add(mTime[i]);
             }
-
-            yield return StartCoroutine(DownloadData(2));
 
             for (int i = 11; i < 18; i++)
             {
@@ -265,14 +238,12 @@ public class SaBan : Item {
         {
             MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
-            yield return StartCoroutine(DownloadData(1));
 
             for (int i = 7; i < 11; i++)
             {
                 data[1].imgTime.Add(mTime[i]);
             }
 
-            yield return StartCoroutine(DownloadData(2));
 
             for (int i = 11; i < 18; i++)
             {
@@ -307,7 +278,6 @@ public class SaBan : Item {
                     else
                     {
                         EventManager.Instance.PostNotification("OnSabanShowTime", this, data[t]);
-                        StartCoroutine(DownloadData(t + 1));
                     }
                     break;
                 }
@@ -350,6 +320,7 @@ public class SaBan : Item {
 
     public override IEnumerator DownloadData()
     {
-        yield return null;
+        for (int i = 0; i < 3; i++)
+            yield return StartCoroutine(DownloadData(i));
     }
 }

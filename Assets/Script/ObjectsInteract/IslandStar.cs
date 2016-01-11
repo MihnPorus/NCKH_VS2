@@ -108,7 +108,7 @@ public class IslandStar : MonoBehaviour {
 
     IEnumerator OnResponseIslandData(int temp)
     {
-        if (order == temp - 1)
+        if (order == temp - 1 || order == temp + 1)
         {
             OnMouseExit();
             // Tat ten dao di
@@ -123,6 +123,7 @@ public class IslandStar : MonoBehaviour {
             OnMouseEnter();
             EventManager.Instance.PostNotification("OnIslandPlay", this, data);
         }
+
     }
 
     public void OnEvent(string eventType, Component sender, object param = null)
