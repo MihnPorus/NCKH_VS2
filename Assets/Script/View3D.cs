@@ -18,7 +18,7 @@ public class View3D : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (model != null)
+            //if (model != null)
                 Destroy(model);
             StopAllCoroutines();
             

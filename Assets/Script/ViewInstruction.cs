@@ -13,6 +13,7 @@ public class ViewInstruction : MonoBehaviour
 
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
     }

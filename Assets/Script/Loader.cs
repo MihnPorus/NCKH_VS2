@@ -21,7 +21,7 @@ public class Loader : MonoBehaviour {
         Instantiate(instructionView);
         Instantiate(dataStorage);
 
-        AssetBundleLoadOperation request = BundleManager.LoadLevelAsync(levelBundleName, levelName, true);
+        AssetBundleLoadOperation request = BundleManager.LoadLevelAsync(levelBundleName, levelName, false);
         if (request == null)
             yield break;
         yield return StartCoroutine(request);
