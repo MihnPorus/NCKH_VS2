@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1900543053
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 411f22b7fd68969042df7c51d77b1f29
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel2.prefab
+- Assets/Materials/Materials tranh/A04_Dan day song gio.mat
+Dependencies:
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata2

@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1241321333
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6bec12aa75fad1a500ddd9174f3b7585
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Text_MieuTa/PhapdungBiaChuQuyen.txt
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_bia_chuquyen_thoiPhap.mp3
+- Assets/Anh truong sa/Anh dep/spites/Phap dung bia chu quyen 1.jpg
+- Assets/Anh truong sa/Anh dep/spites/Phap dung bia chu quyen 2.jpg
+- Assets/Anh truong sa/Anh dep/spites/Phap dung bia chu quyen 3.jpg
+- Assets/Anh truong sa/Anh dep/spites/Phap dung bia chu quyen.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_bia_chuquyen_thoiPhap.mp3
+Dependencies: []

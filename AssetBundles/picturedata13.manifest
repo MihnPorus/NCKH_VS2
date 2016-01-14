@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2633083210
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fd2671e8a43bb531e0ae1c9a32ce5c2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/spites/Bien doi tau bien VN.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_anninh_quocphong.mp3
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_anninh_quocphong.mp3
+- Assets/Anh truong sa/Anh dep/spites/Canh giu chu quyen bien dao.jpg
+- Assets/Anh truong sa/Anh dep/spites/Tuan tra ven bien.jpg
+- Assets/Anh truong sa/Text_MieuTa/AnhAnNinhQuocPhong.txt
+- Assets/Anh truong sa/Anh dep/spites/radar tren dao.JPG
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3481356378
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4972fafc8e02a7c65e4f34b65e055e26
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Ten_Dao_TruongSa_Dong.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa \u0110\xF4ng/truong sa dong- rong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa \u0110\xF4ng/Truong Sa dong.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa \u0110\xF4ng/truong sa dong3.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa \u0110\xF4ng/truong sa dong- dai.jpg"
+- Assets/Sound/Dao_va_TenDao/Dao_TruongSa_Dong.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa \u0110\xF4ng/truong sa dong- ve
+  tinh1.jpg"
+Dependencies: []

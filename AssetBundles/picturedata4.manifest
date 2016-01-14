@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3818928960
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b48160704128ed1ce0a3c318f9561565
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/spites/bo Atlas.jpg
+- Assets/Anh truong sa/Anh dep/spites/bo Atlas1.jpg
+- Assets/Anh truong sa/Anh dep/spites/bo Atlas1_VN.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Bo_Atlas.mp3
+- Assets/Anh truong sa/Text_MieuTa/BanDoAtlasTheGioi.txt
+- Assets/Anh truong sa/Anh dep/spites/bo Atlas_TQ.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Bo_Atlas.mp3
+Dependencies: []

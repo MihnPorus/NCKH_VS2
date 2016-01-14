@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1869455778
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d86863d170fefd5117a2be981ed3ebbd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Bando_hanghai_BoDaoNha.mp3
+- Assets/Anh truong sa/Anh dep/spites/ban do hang hai BDN.jpg
+- Assets/Anh truong sa/Text_MieuTa/BanDo_HangHai_BDN.txt
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Bando_hanghai_BoDaoNha.mp3
+- Assets/Anh truong sa/Anh dep/spites/ban do hang hai BDN_1.jpg
+Dependencies: []

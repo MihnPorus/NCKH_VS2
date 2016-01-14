@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2038673820
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6af3349b3181aaf6b5997d4de16923d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/ban do hang hai BDN.jpg
+- Assets/Materials/Materials tranh/A05_Long gio truong sa.mat
+- Assets/Prefabs/Pictures/PictureModel1.prefab
+Dependencies: []

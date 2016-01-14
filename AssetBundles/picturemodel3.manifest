@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1749164414
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5169a93b2e1d5c36b4623d9f27dab5c5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel3.prefab
+- Assets/Materials/Materials tranh/A03_Chao ngay moi.mat
+- Assets/Anh truong sa/Anh dep/An nam dai quoc hoa do.jpg
+Dependencies: []

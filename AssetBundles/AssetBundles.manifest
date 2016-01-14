@@ -1,0 +1,220 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: baotanglv1
+      Dependencies:
+        Dependency_0: picturedata10
+        Dependency_1: picturedata14
+        Dependency_2: mapdata
+        Dependency_3: picturemodel7
+        Dependency_4: picturemodel14
+        Dependency_5: picturedata12
+        Dependency_6: picturemodel12
+        Dependency_7: picturedata2
+        Dependency_8: sabanmodel
+        Dependency_9: baidadong
+        Dependency_10: picturemodel3
+        Dependency_11: picturedata11
+        Dependency_12: picturedata8
+        Dependency_13: picturedata9
+        Dependency_14: picturemodel10
+        Dependency_15: picturemodel5
+        Dependency_16: picturemodel1
+        Dependency_17: mapmodel
+        Dependency_18: picturedata4
+        Dependency_19: picturemodel13
+        Dependency_20: picturedata6
+        Dependency_21: picturemodel8
+        Dependency_22: picturedata13
+        Dependency_23: picturemodel4
+        Dependency_24: picturedata3
+        Dependency_25: picturedata1
+        Dependency_26: picturedata5
+        Dependency_27: picturemodel9
+        Dependency_28: picturedata7
+        Dependency_29: picturemodel11
+        Dependency_30: picturemodel6
+        Dependency_31: picturemodel2
+        Dependency_32: biachuquyenmodel
+        Dependency_33: taucamodel
+        Dependency_34: biachuquyendata
+    Info_1:
+      Name: phanvinh
+      Dependencies: {}
+    Info_2:
+      Name: sinhton
+      Dependencies: {}
+    Info_3:
+      Name: baidatiennu
+      Dependencies: {}
+    Info_4:
+      Name: sinhtondong
+      Dependencies: {}
+    Info_5:
+      Name: picturedata10
+      Dependencies: {}
+    Info_6:
+      Name: baidatoctan
+      Dependencies: {}
+    Info_7:
+      Name: picturedata14
+      Dependencies: {}
+    Info_8:
+      Name: mapdata
+      Dependencies: {}
+    Info_9:
+      Name: picturemodel7
+      Dependencies: {}
+    Info_10:
+      Name: truongsa
+      Dependencies: {}
+    Info_11:
+      Name: colin
+      Dependencies: {}
+    Info_12:
+      Name: picturemodel14
+      Dependencies: {}
+    Info_13:
+      Name: picturedata12
+      Dependencies: {}
+    Info_14:
+      Name: baidatay
+      Dependencies: {}
+    Info_15:
+      Name: picturemodel12
+      Dependencies: {}
+    Info_16:
+      Name: picturedata2
+      Dependencies: {}
+    Info_17:
+      Name: baidalon
+      Dependencies: {}
+    Info_18:
+      Name: sabanmodel
+      Dependencies:
+        Dependency_0: mapmodel
+    Info_19:
+      Name: anbang
+      Dependencies: {}
+    Info_20:
+      Name: songtutay
+      Dependencies: {}
+    Info_21:
+      Name: baidadong
+      Dependencies: {}
+    Info_22:
+      Name: baidalat
+      Dependencies: {}
+    Info_23:
+      Name: sonca
+      Dependencies: {}
+    Info_24:
+      Name: picturemodel3
+      Dependencies: {}
+    Info_25:
+      Name: picturedata11
+      Dependencies: {}
+    Info_26:
+      Name: sabandata1
+      Dependencies: {}
+    Info_27:
+      Name: sabandata3
+      Dependencies: {}
+    Info_28:
+      Name: picturedata8
+      Dependencies: {}
+    Info_29:
+      Name: picturedata9
+      Dependencies: {}
+    Info_30:
+      Name: picturemodel10
+      Dependencies: {}
+    Info_31:
+      Name: sabandata2
+      Dependencies: {}
+    Info_32:
+      Name: picturemodel5
+      Dependencies: {}
+    Info_33:
+      Name: baidathuyenchai
+      Dependencies: {}
+    Info_34:
+      Name: baidanam
+      Dependencies: {}
+    Info_35:
+      Name: picturemodel1
+      Dependencies: {}
+    Info_36:
+      Name: mapmodel
+      Dependencies: {}
+    Info_37:
+      Name: picturedata4
+      Dependencies: {}
+    Info_38:
+      Name: baidalendao
+      Dependencies: {}
+    Info_39:
+      Name: baidanuile
+      Dependencies: {}
+    Info_40:
+      Name: baidathi
+      Dependencies: {}
+    Info_41:
+      Name: namyet
+      Dependencies: {}
+    Info_42:
+      Name: picturemodel13
+      Dependencies: {}
+    Info_43:
+      Name: picturedata6
+      Dependencies: {}
+    Info_44:
+      Name: truongsadong
+      Dependencies: {}
+    Info_45:
+      Name: picturemodel8
+      Dependencies: {}
+    Info_46:
+      Name: picturedata13
+      Dependencies: {}
+    Info_47:
+      Name: picturemodel4
+      Dependencies: {}
+    Info_48:
+      Name: picturedata3
+      Dependencies: {}
+    Info_49:
+      Name: picturedata1
+      Dependencies: {}
+    Info_50:
+      Name: picturedata5
+      Dependencies: {}
+    Info_51:
+      Name: picturemodel9
+      Dependencies: {}
+    Info_52:
+      Name: picturedata7
+      Dependencies: {}
+    Info_53:
+      Name: picturemodel11
+      Dependencies: {}
+    Info_54:
+      Name: picturemodel6
+      Dependencies: {}
+    Info_55:
+      Name: picturemodel2
+      Dependencies:
+        Dependency_0: picturedata2
+    Info_56:
+      Name: biachuquyenmodel
+      Dependencies: {}
+    Info_57:
+      Name: taucamodel
+      Dependencies: {}
+    Info_58:
+      Name: taucadata
+      Dependencies: {}
+    Info_59:
+      Name: biachuquyendata
+      Dependencies: {}

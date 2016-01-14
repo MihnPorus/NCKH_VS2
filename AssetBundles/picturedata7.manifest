@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2694168062
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f5255a42ee96e90ae392e3393ec1853c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Dainam_thongnhat_toando.mp3
+- Assets/Anh truong sa/Anh dep/spites/Dai nam thong nhat toan do1.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Dainam_thongnhat_toando.mp3
+- Assets/Anh truong sa/Text_MieuTa/DaiNamThongNhatToanDo.txt
+- Assets/Anh truong sa/Anh dep/spites/Dai nam thong nhat toan do.jpg
+Dependencies: []

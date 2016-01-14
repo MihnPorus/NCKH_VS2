@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1094397855
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 035d05ad4d673630210df0086e19c079
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/dau khi.jpg
+- Assets/Materials/Materials tranh/A13.mat
+- Assets/Prefabs/Pictures/PictureModel12.prefab
+Dependencies: []

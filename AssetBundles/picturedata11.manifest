@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 4016763884
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 09e406e53696b3d2ad49065c4f8edf33
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh truong sa/Anh dep/spites/Bia chu quyen VNCH2_NamYet.jpg
+- Assets/Anh truong sa/Anh dep/spites/Bia chu quyen VNCH.jpg
+- Assets/Anh truong sa/Anh dep/spites/Bia chu quyen VNCH1.jpg
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_Bia_chuquyen_VNCH.mp3
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_Bia_chuquyen_VNCH.mp3
+- Assets/Anh truong sa/Text_MieuTa/CacHienVatThoiVietNamCongHoa.txt
+Dependencies: []

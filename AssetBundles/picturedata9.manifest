@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3241245356
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1111d174fdb6c6170001fdb227753645
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4efb897328624ef1ae90d26726ede96d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Chitiet_du_so10_vua_BaoDai.mp3
+- Assets/Anh truong sa/Anh dep/spites/du so 10 Bao Dai1.jpg
+- Assets/Anh truong sa/Anh dep/spites/du so 10 Bao Dai.jpg
+- Assets/Anh truong sa/Text_MieuTa/Duso10.txt
+- Assets/Sound/Gioi thieu ngan va chi tiet hien vat/Loidan_du_so10_vua_BaoDai.mp3
+Dependencies: []

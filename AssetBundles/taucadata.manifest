@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3786034950
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38fee911e3579adbb22041c2306e7e4a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Khu mo hinh/Loidan_tauca.mp3
+- Assets/Sound/Khu mo hinh/Chitiet_tauca.mp3
+Dependencies: []

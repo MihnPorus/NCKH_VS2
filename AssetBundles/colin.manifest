@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2598690075
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92c5882edc638ccdfd0d089a1b663efb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-GacMa.jpg"
+- Assets/Sound/Dao_va_TenDao/Baida_CoLin.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_CoLin.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-ve tinh1[1].jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-Sinh ton.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin 4[1].jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-LenDao.jpg"
+Dependencies: []

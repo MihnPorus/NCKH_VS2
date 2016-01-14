@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1707874596
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3eca1e9f91989788cb37f23cc93023ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Texture/Bandobaotangtt.png
+- Assets/Prefabs/Map/MapModel.prefab
+- Assets/Texture/MapVN/Bandobaotang.mat
+- Assets/Materials/vn-map.mat
+- Assets/Texture/vn-maptt.png
+Dependencies: []

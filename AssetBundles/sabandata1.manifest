@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1637569716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38b084f3db9f6e968ea43f5712af792e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/BandoVN/BD_QD_HoangSa 1.jpg
+- Assets/Anh Dao/BandoVN/BD_QD_TruongSa 1.jpg
+- Assets/Anh Dao/BandoVN/BD_Ten_QT 1.jpg
+- Assets/Anh Dao/BandoVN/BD_dientich 1.jpg
+- Assets/Sound/Dao_va_TenDao/Chitiet_khu sa ban.mp3
+- Assets/Sound/Saban/Loidan_khu sa ban.mp3
+- Assets/Anh Dao/BandoVN/BD_HoangSa_TruongSa 1.jpg
+- Assets/Anh Dao/BandoVN/BD_QD_HS_TS2.jpg
+- Assets/Anh Dao/BandoVN/Biendong2.jpg
+Dependencies: []

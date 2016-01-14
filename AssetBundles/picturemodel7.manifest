@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3699249447
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 72a3d1a2a8b84bece3e5054642db0658
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 61281c60f0662daf8d7b0c4117e0ad57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel7.prefab
+- Assets/Anh truong sa/Anh dep/Dai nam thong nhat toan do.jpg
+- Assets/Materials/Materials tranh/A08_Tinh lang.mat
+Dependencies: []

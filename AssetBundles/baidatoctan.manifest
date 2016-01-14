@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 337741949
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c53f0ecf174091315e5ce158bf4c057
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sound/Dao_va_TenDao/Baida_Toctan.mp3
+- Assets/Sound/Dao_va_TenDao/Ten_Baida_Toctan.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 T\u1ED1c Tan/Toc tan-phia nam.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 T\u1ED1c Tan/Toc tan-ve tinh.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 T\u1ED1c Tan/Toc Tan-da dong.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 T\u1ED1c Tan/Toc tan-phia bac.jpg"
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 T\u1ED1c Tan/toc tan 1.jpg"
+Dependencies: []

@@ -21,10 +21,17 @@ public class View2dManager : MonoBehaviour {
 
     int currentImage = 0; // chi so anh hien thoi
     int maxImage; //so luong anh trong 1 khung
-
+    public int checkSitemap; // check xem site map co dang mo hay khong
+    AICharacterControl aiCctl;
     float timeStart=0;
     PictureData recvData;
 
+    //Site map
+
+    public GameObject siteMapPanel;  // panel site map
+    public GameObject btnSiteMap;    // button site map
+
+    public ViewInstruction viewInstruc;
     void Start()
     {
         //play audio
@@ -39,8 +46,13 @@ public class View2dManager : MonoBehaviour {
        
         EventManager.Instance.AddListener("OnPictureManualClick", OnEvent);
         View2dWindow.SetActive(false);
-    }
 
+        //Sitemap
+        siteMapPanel.SetActive(false);
+        btnSiteMap.SetActive(false);
+       
+    }
+        
     void Update()
     {
         currentVolume = uiSliderVolume.value ; // lay gia tri volume hien tai tren uiSliderVolume
@@ -48,7 +60,21 @@ public class View2dManager : MonoBehaviour {
         //display image and time
         DisplayAudioTime();
         //AutoNextImage();
-        
+
+        //xet che do manual se hien buttonSiteMap, neu auto thi ko hien
+        int mode = PlayerPrefs.GetInt("IsAutoMode");
+        Debug.Log("mode =" + mode);
+        if (mode == 0)
+        {
+            btnSiteMap.SetActive(true);
+            Debug.Log("Active Sitemap !");
+        }
+        else
+        {
+            btnSiteMap.SetActive(false);
+            Debug.Log("Deactive Sitemap !");
+        }
+
     }
 
     #region xu li button
@@ -258,6 +284,44 @@ public class View2dManager : MonoBehaviour {
             default:
                 break;
         }
+    }
+
+
+   
+    public void ShowSiteMap()
+    {
+        // tăt navmesh agent
+        Item.isInteractable = false;
+        siteMapPanel.SetActive(true);
+        checkSitemap = 0;
+        //luu lai gia tri = playerpref, goi tu scene khac
+        PlayerPrefs.SetInt("checkSiteMap", checkSitemap);
+        PlayerPrefs.Save();
+
+    }
+
+    public void HideSiteMap()
+    {
+        //bật lại navmesh agent
+        Item.isInteractable = true;
+        siteMapPanel.SetActive(false);
+        checkSitemap = 1;
+        PlayerPrefs.SetInt("checkSiteMap", checkSitemap);
+        PlayerPrefs.Save();
+    }
+
+    
+    public void GoToAreaSelected(GameObject viewPoint)
+    {
+        //tele den vi tri dat truoc
+        ViewInstruction.playerClone.transform.position = viewPoint.transform.position;
+        ViewInstruction.playerClone.transform.rotation = viewPoint.transform.localRotation;
+        HideSiteMap();
+        Debug.Log("Go site map go !");
+        // tăt navmesh agent
+        AICharacterControl.agent.enabled = false;
+        
+        
     }
 
 }

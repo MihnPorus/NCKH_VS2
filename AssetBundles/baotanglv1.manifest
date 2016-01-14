@@ -1,0 +1,179 @@
+ManifestFileVersion: 0
+CRC: 3894150971
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e6b7ab81a8f11fa7bbb16deb09c7865
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 96922ac16adc3fe04b30ff7a7222d3ad
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 29
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 187b8640ac94ea04eb6c1fa27863b967, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a291e9e05d8f34b4388f034edc3c1578, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 345259510af8c3d4d87be79a7f8a1d0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d29d74e1834beb747b06817f058d2db3, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2061169968, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5e54de2869148543b90000efc3b7648, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7feaa0f29cb6af04d9de54a26fdbe469, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 936bf9d389088cd4eb2401a37259ddeb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f3efae94c1759304da71e5f8b912e350, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a9b210517fd3ff4ba96359ce5cd881a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 33a8fe3843ffd4d4f9d9b271750f686d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5814ac88c2cba6443a42cb95089fb476, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed7c13d8f7068574fb51f69bb7f300a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7738131aa939afc49aa31a81bc39dd0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3d3ef1a5bbfb4e0a910fbbe5830b1f9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 79aff76acfba08a4783173472f19ca3d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7548197bb48ead643b50c13f669f8738, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8bfbfee82708c74bb9594f607aaf34f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 192
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scene/Bao tang.unity
+Dependencies:
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata10
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata14
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/mapdata
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel7
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel14
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata12
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel12
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata2
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/sabanmodel
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/baidadong
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel3
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata11
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata8
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata9
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel10
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel5
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel1
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/mapmodel
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata4
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel13
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata6
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel8
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata13
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel4
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata3
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata1
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata5
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel9
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata7
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel11
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel6
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturemodel2
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/biachuquyenmodel
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/taucamodel
+- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/biachuquyendata

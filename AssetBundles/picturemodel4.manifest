@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2143181551
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: babfc6f5e49dc18a703e537449be9f93
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel4.prefab
+- Assets/Anh truong sa/Anh dep/bo Atlas1.jpg
+- Assets/Materials/Materials tranh/A02_Binh minh tren dao.mat
+Dependencies: []

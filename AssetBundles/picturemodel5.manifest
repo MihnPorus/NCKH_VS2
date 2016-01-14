@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3807853426
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 532d546d1704dac4b0fcb6413ef7e4f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6d74f2d6b370c4d26f3cae461538e43
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Pictures/PictureModel5.prefab
+- Assets/Materials/Materials tranh/A01_Bao la bien troi.mat
+- Assets/Anh truong sa/Anh dep/hoang trieu truc tinh.jpg
+Dependencies: []

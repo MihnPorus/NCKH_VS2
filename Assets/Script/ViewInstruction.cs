@@ -8,7 +8,7 @@ public class ViewInstruction : MonoBehaviour
     public Button auto;
     public Button manual;
     public GameObject player;
-
+    public static GameObject playerClone;
     AudioSource audioSource;
 
     void Awake()
@@ -26,7 +26,10 @@ public class ViewInstruction : MonoBehaviour
 
     public void OnAutoClick() {
         PlayerPrefs.SetInt("IsAutoMode", 1);
-        Instantiate(player);
+        Debug.Log("Dang la auto mode!");
+        PlayerPrefs.Save();
+        //ep kieu object cho playerClone thi moi su dung sitemap duoc 
+        playerClone = (GameObject)Instantiate(player);
         Cursor.visible = false;
         Hide();
 
@@ -35,7 +38,9 @@ public class ViewInstruction : MonoBehaviour
     public void OnManualClick()
     {
         PlayerPrefs.SetInt("IsAutoMode", 0);
-        Instantiate(player);
+        Debug.Log("Dang la manual mode!");
+        PlayerPrefs.Save();
+        playerClone = (GameObject)Instantiate(player);
         Cursor.visible = true;
         Hide();
     }

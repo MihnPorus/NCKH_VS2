@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 4294244382
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f863bf02b3561eb18a5322ccfa5ac48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/BandoVN/Truong Sa-23dao.jpg
+- Assets/Anh Dao/BandoVN/TruongSa-toado 1.jpg
+- Assets/Anh Dao/BandoVN/Truong Sa -dientich 1.jpg
+- Assets/Anh Dao/BandoVN/Truong Sa - 100 dao 1.jpg
+- Assets/Sound/Dao_va_TenDao/Quandao_truongSa4.mp3
+- Assets/Anh Dao/BandoVN/Truong Sa - khoangcach_VungTau 1.jpg
+- Assets/Anh Dao/BandoVN/Truong Sa - khoangcach_CamRanh 1.jpg
+- Assets/Sound/Dao_va_TenDao/Ten_Quandao_TruongSa.mp3
+- Assets/Anh Dao/BandoVN/TruongSa 1.jpg
+Dependencies: []

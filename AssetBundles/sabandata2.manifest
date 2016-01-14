@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2305428132
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c8cf6bc93ca8aa4785fb3586583240cf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Anh Dao/BandoVN/HoangSa-Ly Son 1.jpg
+- Assets/Anh Dao/BandoVN/HoangSa 1.jpg
+- Assets/Anh Dao/BandoVN/HoangSa_dientich_phulam 1.jpg
+- Assets/Sound/Dao_va_TenDao/Ten_Quandao_HoangSa.mp3
+- Assets/Anh Dao/BandoVN/HoangSa_dientich 1.jpg
+- Assets/Sound/Dao_va_TenDao/Quandao_HoangSa.mp3
+Dependencies: []

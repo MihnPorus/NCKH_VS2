@@ -4,6 +4,7 @@ using DG.Tweening;
 
 public class MoveCharator : MonoBehaviour
 {
+    private View2dManager view2d;
     public static bool isRotatable = true;
     public bool onStart = false;
     /// <summary>
@@ -87,6 +88,8 @@ public class MoveCharator : MonoBehaviour
     {
         while (true)
         {
+            //kiem tra bien checkSitemap, khong cho phep xoay
+            if(PlayerPrefs.GetInt("checkSiteMap") !=0)
             RotateView();
             yield return null;
         }

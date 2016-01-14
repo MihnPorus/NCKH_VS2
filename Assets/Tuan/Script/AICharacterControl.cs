@@ -7,7 +7,7 @@ public class AICharacterControl : MonoBehaviour
 
     public GameObject targetPicker;
 
-    public NavMeshAgent agent { get; private set; } // the navmesh agent required for the path finding
+    public static NavMeshAgent agent { get; private set; } // the navmesh agent required for the path finding
     public MoveCharator character { get; private set; } // the character we are controlling
     private Transform target; // target to aim for
     private int count;
@@ -22,7 +22,7 @@ public class AICharacterControl : MonoBehaviour
         //Debug.Log(mode);
         Debug.Log("AICharacterControl - Start()");
         // get the components on the object we need ( should not be null due to require component so no need to check )
-        agent = GetComponentInChildren<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         character = GetComponent<MoveCharator>();
 
         agent.updateRotation = false;
@@ -41,8 +41,8 @@ public class AICharacterControl : MonoBehaviour
         {
             isEscapable = true;
             if (target.tag == "Ground")
-            {
-                agent.SetDestination(target.position);
+            {   
+                agent.SetDestination(target.position);// navmesh di chuyen
             }
             
         }
