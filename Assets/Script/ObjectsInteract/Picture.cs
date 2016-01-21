@@ -180,14 +180,14 @@ public class Picture : Item {
         {
             data.Stop();
             Item.isInteractable = false;
-            MoveCharator.isRotatable = false;
+           // MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnPictureManualClick", this, data);
         }
         else if (!data.isCancel && clickCount < 2)
         {
             data.Stop();
             Item.isInteractable = false;
-            MoveCharator.isRotatable = false;
+            //MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnPictureManualClick", this, data);
         }
         clickCount = 0;

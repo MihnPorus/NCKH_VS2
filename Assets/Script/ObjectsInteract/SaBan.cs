@@ -221,7 +221,7 @@ public class SaBan : Item {
 
         if (!data[0].isCancel)
         {
-            MoveCharator.isRotatable = false;
+           // MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
 
             for (int i = 7; i < 11; i++)
@@ -236,7 +236,7 @@ public class SaBan : Item {
         }
         else if (!data[0].isCancel && clickCount < 2)
         {
-            MoveCharator.isRotatable = false;
+            //MoveCharator.isRotatable = false;
             EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
 
             for (int i = 7; i < 11; i++)

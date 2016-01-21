@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1699907623
+CRC: 148231477
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 45a209d5c896747aca0c3e6fa103b4b3
+    Hash: 8946b986ef4a5e46658367693b279815
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6d74f2d6b370c4d26f3cae461538e43
@@ -30,4 +30,4 @@ Assets:
 - Assets/Model/Materials/1a copy mat.mat
 - Assets/Prefabs/SaBan/SaBanModel.prefab
 Dependencies:
-- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/mapmodel
+- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/mapmodel

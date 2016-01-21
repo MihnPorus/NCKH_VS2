@@ -6,7 +6,7 @@ public class PlaceTargetWithMouse : MonoBehaviour
 {
     public float surfaceOffset = 0.1f;
     public GameObject setTargetOn;
-    public View2dManager view2d;
+    //public View2dManager view2d;
     // Update is called once per frame
 
 

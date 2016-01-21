@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1900543053
+CRC: 3627683696
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 411f22b7fd68969042df7c51d77b1f29
+    Hash: e5c0b66a31bc6e4af7c8d4ae7e5a884f
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6d74f2d6b370c4d26f3cae461538e43
@@ -29,4 +29,4 @@ Assets:
 - Assets/Prefabs/Pictures/PictureModel2.prefab
 - Assets/Materials/Materials tranh/A04_Dan day song gio.mat
 Dependencies:
-- E:/NCKH/BaoTang/NCKH_VS2/AssetBundles/picturedata2
+- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata2

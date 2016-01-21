@@ -50,7 +50,11 @@ public class View2dManager : MonoBehaviour {
         //Sitemap
         siteMapPanel.SetActive(false);
         btnSiteMap.SetActive(false);
-       
+        // Khoi tao gia tri mac dinh sitemap
+        checkSitemap = 1;
+        PlayerPrefs.SetInt("checkSiteMap", checkSitemap);
+        PlayerPrefs.Save();
+
     }
         
     void Update()
@@ -132,7 +136,7 @@ public class View2dManager : MonoBehaviour {
         audio.time = 0;
         audio.Stop();
         uiSliderTime.value = 0f;
-        MoveCharator.isRotatable = true;
+        //MoveCharator.isRotatable = true;
         View2dWindow.SetActive(false);
         EventManager.Instance.PostNotification("OnEndOfPictureView", this);
     }
