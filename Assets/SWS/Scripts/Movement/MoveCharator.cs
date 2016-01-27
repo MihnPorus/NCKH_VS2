@@ -87,7 +87,6 @@ public class MoveCharator : MonoBehaviour
                 EventManager.Instance.RemoveEvent("On3DShow", OnEvent);
                 EventManager.Instance.PostNotification("OnReload", this);
                 Destroy(gameObject);
-
             }
 
             yield return null;
@@ -202,6 +201,7 @@ public class MoveCharator : MonoBehaviour
                     break;
                 }
 
+            
             default:
                 break;
         }

@@ -20,7 +20,7 @@ public class View3D : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             //if (model != null)
-                Destroy(model);
+            Destroy(model);
             StopAllCoroutines();
             
             EventManager.Instance.PostNotification("OnEndOfView3D", this, data.id);
@@ -34,7 +34,6 @@ public class View3D : MonoBehaviour {
         {
             case "On3DShow":
                 {
-                    Debug.Log("On3DShow");
                     data = (Object3Ddata)param;
                     gameObject.SetActive(true);
                     StartCoroutine(AutoPlayContent(data));

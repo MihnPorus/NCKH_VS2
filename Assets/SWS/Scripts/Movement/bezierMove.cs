@@ -496,7 +496,7 @@ namespace SWS
                 yield return new WaitForSeconds(0);
             }
             #region Duc
-            Debug.Log("Reload");
+            //Debug.Log("Reload");
             EventManager.Instance.PostNotification("OnReload", this);
             EventManager.Instance.RemoveEvent("OnMoveToObject");
             EventManager.Instance.RemoveEvent("OnEndOfView3D", OnEvent);

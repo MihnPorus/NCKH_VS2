@@ -77,7 +77,7 @@ public class EventManager : MonoBehaviour
             {
                 for (int i = item.Value.Count - 1; i >= 0; i--)
                 {
-                    if (item.Value[i]==x)
+                    if (item.Value[i].Equals(x))
                     {
                         item.Value.RemoveAt(i);
                         Debug.Log("Remove");
