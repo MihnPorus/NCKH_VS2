@@ -466,6 +466,9 @@ namespace SWS
         IEnumerator IsPlayAudio()
         {
             while (aSource.isPlaying) yield return null;
+            EventManager.Instance.RemoveEvent("OnMoveToObject");
+            EventManager.Instance.RemoveEvent("OnEndOfView3D");
+            EventManager.Instance.RemoveEvent("On3DShow");
             EventManager.Instance.PostNotification("OnReload", this);
             Destroy(gameObject);
 
@@ -496,6 +499,8 @@ namespace SWS
             Debug.Log("Reload");
             EventManager.Instance.PostNotification("OnReload", this);
             EventManager.Instance.RemoveEvent("OnMoveToObject");
+            EventManager.Instance.RemoveEvent("OnEndOfView3D", OnEvent);
+            EventManager.Instance.RemoveEvent("On3DShow", OnEvent);
             Destroy(gameObject);
             #endregion
             

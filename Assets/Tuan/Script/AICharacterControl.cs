@@ -95,9 +95,9 @@ public class AICharacterControl : MonoBehaviour
         if (mode != 1 && isEscapable && Input.GetKeyDown(KeyCode.Escape)) 
         {
             Debug.Log("Reload");
+            EventManager.Instance.RemoveEvent("OnMoveToObject");
             EventManager.Instance.PostNotification("OnReload", this);
             // Remove su kien cua targetPicker cu
-            bool x = EventManager.Instance.RemoveEvent("OnMoveToObject");
             //Debug.Log(x);
             targetPicker.SetActive(false);
             Destroy(gameObject);

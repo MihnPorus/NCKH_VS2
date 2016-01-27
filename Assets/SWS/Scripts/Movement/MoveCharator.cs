@@ -82,8 +82,10 @@ public class MoveCharator : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 Debug.Log("Reload");
-                EventManager.Instance.PostNotification("OnReload", this);
                 EventManager.Instance.RemoveEvent("OnMoveToObject");
+                EventManager.Instance.RemoveEvent("OnEndOfView3D", OnEvent);
+                EventManager.Instance.RemoveEvent("On3DShow", OnEvent);
+                EventManager.Instance.PostNotification("OnReload", this);
                 Destroy(gameObject);
 
             }

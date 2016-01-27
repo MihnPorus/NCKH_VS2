@@ -11,6 +11,7 @@ public class View3D : MonoBehaviour {
 	void Start () {
         source = GetComponent<AudioSource>();
         EventManager.Instance.AddListener("On3DShow", OnEvent);
+        //EventManager.Instance.AddListener("OnReload", OnEvent);
         gameObject.SetActive(false);
 	}
     
@@ -33,12 +34,19 @@ public class View3D : MonoBehaviour {
         {
             case "On3DShow":
                 {
+                    Debug.Log("On3DShow");
                     data = (Object3Ddata)param;
                     gameObject.SetActive(true);
                     StartCoroutine(AutoPlayContent(data));
                     break;
                 }
 
+            //case "OnReload":
+            //    {
+            //        EventManager.Instance.AddListener("On3DShow", OnEvent);
+            //        Debug.Log("OnReload");
+            //        break;
+            //    }
             default:
                 break;
         }

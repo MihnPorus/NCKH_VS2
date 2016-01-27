@@ -47,6 +47,7 @@ public class EventManager : MonoBehaviour
         listenList.Add(listener);
 
         listeners.Add(eventType, listenList);
+        //Debug.Log(eventType);
     }
 
     public void PostNotification(string eventType, Component sender, object param = null)
@@ -66,9 +67,24 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public bool RemoveEvent(string eventType)
+    public bool RemoveEvent(string eventType, OnEvent x = null)
     {
-        listeners.Remove(eventType);
+        if (x==null)
+            listeners.Remove(eventType);
+        else
+        {
+            foreach (KeyValuePair<string, List<OnEvent>> item in listeners)
+            {
+                for (int i = item.Value.Count - 1; i >= 0; i--)
+                {
+                    if (item.Value[i]==x)
+                    {
+                        item.Value.RemoveAt(i);
+                        Debug.Log("Remove");
+                    }
+                }
+            }
+        }
         if (listeners.ContainsKey(eventType))
             return false;
         return true;
