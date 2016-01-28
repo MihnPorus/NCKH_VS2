@@ -192,6 +192,9 @@ public class BundleManager : MonoBehaviour
     // 
     public static IEnumerator Initialize()
     {
+        baseURL = "http://" + Loader.url + "AssetBundles/Webplayer/";
+        Debug.Log(baseURL);
+
         GameObject assetManagerObject = new GameObject("BundleManager", typeof(BundleManager));
         DontDestroyOnLoad(assetManagerObject);
 

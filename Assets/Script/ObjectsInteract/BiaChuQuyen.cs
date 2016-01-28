@@ -153,7 +153,7 @@ public class BiaChuQuyen : Item {
     public override IEnumerator DownloadData()
     {
         yield return StartCoroutine(data.GetAudio(1));
-
+        Debug.Log(data.audioBundle);
         AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
         if (request == null)
             yield break;

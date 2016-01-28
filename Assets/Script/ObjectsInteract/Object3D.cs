@@ -134,6 +134,7 @@ public class Object3D : Item {
 
     public override IEnumerator DownloadData()
     {
+        Debug.Log(data.audioBundle);
         AssetBundleLoadAssetOperation request = BundleManager.LoadAssetAsync(data.audioBundle[0], data.audioBundle[1], typeof(AudioClip));
         if (request == null)
             yield break;
@@ -160,10 +161,10 @@ public class Object3Ddata
 
     static string secretKey = "museum";
 
-    static string getModelURL = "http://localhost/GetModel.php?";
-    static string getSpriteURL = "http://localhost/GetSprite.php?";
-    static string getAudioURL = "http://localhost/GetAudio.php?";
-    static string getTextURL = "http://localhost/GetText.php?";
+    static string getModelURL = "http://" + Loader.url + "GetModel.php?";
+    static string getSpriteURL = "http://" + Loader.url + "GetSprite.php?";
+    static string getAudioURL = "http://" + Loader.url + "GetAudio.php?";
+    static string getTextURL = "http://" + Loader.url + "GetText.php?";
 
     #endregion
 

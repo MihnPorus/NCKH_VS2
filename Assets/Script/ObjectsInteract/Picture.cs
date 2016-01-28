@@ -263,10 +263,10 @@ public class PictureData
 
     static string secretKey = "museum";
 
-    static string getModelURL = "http://localhost/GetModel.php?";
-    static string getSpriteURL = "http://localhost/GetSprite.php?";
-    static string getAudioURL = "http://localhost/GetAudio.php?";
-    static string getTextURL = "http://localhost/GetText.php?";
+    static string getModelURL = "http://" + Loader.url + "GetModel.php?";
+    static string getSpriteURL = "http://" + Loader.url + "GetSprite.php?";
+    static string getAudioURL = "http://" + Loader.url +  "GetAudio.php?";
+    static string getTextURL = "http://" + Loader.url +  "GetText.php?";
 
     #endregion
 

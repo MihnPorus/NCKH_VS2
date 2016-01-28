@@ -75,7 +75,7 @@ public class SaBan : Item {
             yield return StartCoroutine(request);
             data[number].introAudio = request.GetAsset<AudioClip>();
 
-            //Debug.Log(data.introAudio);
+            Debug.Log(data[number].audioBundle);
 
             //request = null;
             request = BundleManager.LoadAssetAsync(data[number].audioBundle[2], data[number].audioBundle[3], typeof(AudioClip));
