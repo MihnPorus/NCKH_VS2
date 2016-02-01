@@ -24,6 +24,7 @@ public class IslandStar : MonoBehaviour {
         starImg = GetComponent<Image>();
         EventManager.Instance.AddListener("OnRequestIslandData", OnEvent);
         EventManager.Instance.AddListener("OnDownloadIsland", OnEvent);
+        EventManager.Instance.AddListener("OnIslandPlay", OnEvent);
         if (order == 0)
             EventManager.Instance.PostNotification("OnDownloadIsland", this, 0);
     }
@@ -123,9 +124,10 @@ public class IslandStar : MonoBehaviour {
         }
         else if (order == temp || temp == -1)
         {
-            yield return StartCoroutine(WaitForReady());
             // Hien thi ten dao
             textObject.SetActive(true);
+            yield return StartCoroutine(WaitForReady());
+            
             Debug.Log("order = temp = " + order);
             OnMouseEnter();
             EventManager.Instance.PostNotification("OnIslandPlay", this, data);
@@ -148,14 +150,23 @@ public class IslandStar : MonoBehaviour {
                 {
                     int temp = (int)param;
 
-                    
-
                     if (order == temp)
                     {
                         Debug.Log("Download Island: " + order);
                         StartCoroutine(DownLoadContent());
                     }
 
+                    break;
+                }
+
+            case "OnIslandPlay":
+                {
+                    PictureData temp = (PictureData)param;
+                    if (data == null || temp.id != data.id)
+                    {
+                        OnMouseExit();
+                        textObject.SetActive(false);
+                    }
                     break;
                 }
 

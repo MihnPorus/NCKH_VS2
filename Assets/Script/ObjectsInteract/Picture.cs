@@ -335,6 +335,7 @@ public class PictureData
 
     public IEnumerator PlayImage(Image image)
     {
+        isStop = false;
         //Debug.Log(sprites.Count);
         float timer = 0;
         int i = 0;
@@ -357,7 +358,6 @@ public class PictureData
                 image.sprite = sprites[i];
                 i++;
             }
-
             yield return null;
         }
     }
@@ -457,6 +457,4 @@ public class PictureData
             }
         }
     }
-
-    
 }

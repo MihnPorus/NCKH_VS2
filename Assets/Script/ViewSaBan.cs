@@ -80,12 +80,13 @@ public class ViewSaBan : MonoBehaviour {
                 }
                 Debug.Log(countIsland);
             }
-            else if (countIsland < numberOfIsland - 1 && PlayerPrefs.GetInt("IsAutoMode") != 1)
+            else if (countIsland < numberOfIsland - 1 && PlayerPrefs.GetInt("IsAutoMode") == 1)
             {
                 mainImage.gameObject.SetActive(true);
                 islandView.SetActive(true);
                 countIsland++;
                 EventManager.Instance.PostNotification("OnRequestIslandData", this, countIsland);
+                Debug.Log("ABC");
             }
         }
     }
@@ -138,17 +139,25 @@ public class ViewSaBan : MonoBehaviour {
 
             case "OnIslandPlay":
                 {
-                    sabanData = (PictureData)param;
+                    
                     //Debug.Log(param);
 
                     if (PlayerPrefs.GetInt("IsAutoMode") == 1)
+                    {
+                        sabanData = (PictureData)param;
                         StartCoroutine(AutoPlayIsland());
+                    }
+                        
                     else
                     {
-                        if (islandPlayRoutine != null)
+                        if (sabanData != null && islandPlayRoutine != null)
+                        {
                             StopCoroutine(islandPlayRoutine);
+                            sabanData.Stop();
+                        }
+                        sabanData = (PictureData)param;
                         islandPlayRoutine = PlayIsland();
-                        StartCoroutine(PlayIsland());
+                        StartCoroutine(islandPlayRoutine);
                     }
                     
                     break;
