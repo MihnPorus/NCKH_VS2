@@ -335,6 +335,7 @@ public class View2dManager : MonoBehaviour {
         //tele den vi tri dat truoc
         ViewInstruction.playerClone.transform.position = viewPoint.transform.position;
         ViewInstruction.playerClone.transform.rotation = viewPoint.transform.localRotation;
+        ViewInstruction.playerClone.GetComponent<MoveCharator>().SetValueRotateView();
         HideSiteMap();
         Debug.Log("Go site map go !");
         // tăt navmesh agent

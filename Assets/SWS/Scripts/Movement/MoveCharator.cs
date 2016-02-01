@@ -34,9 +34,8 @@ public class MoveCharator : MonoBehaviour
     private Quaternion m_CameraTargetRot;
     void Start()
     {
-        m_CharacterTargetRot = transform.localRotation;
-        m_CameraTargetRot = cameMain.localRotation;
 
+        SetValueRotateView();
         StartCoroutine(Auto());
 
 
@@ -48,6 +47,11 @@ public class MoveCharator : MonoBehaviour
         aSource = GetComponent<AudioSource>();
         aSource.clip = firstClip;
         aSource.Play();
+    }
+     public void SetValueRotateView()
+    {
+        m_CharacterTargetRot = transform.localRotation;
+        m_CameraTargetRot = cameMain.localRotation;
     }
 
     IEnumerator Auto()
