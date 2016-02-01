@@ -26,8 +26,8 @@ public class View2dManager : MonoBehaviour {
     float timeStart=0;
     PictureData recvData;
 
-    //Site map
 
+    //Site map
     public GameObject siteMapPanel;  // panel site map
     public GameObject btnSiteMap;    // button site map
 
@@ -63,7 +63,7 @@ public class View2dManager : MonoBehaviour {
 
         //display image and time
         DisplayAudioTime();
-        //AutoNextImage();
+        AutoNextImage();
 
         //xet che do manual se hien buttonSiteMap, neu auto thi ko hien
         int mode = PlayerPrefs.GetInt("IsAutoMode");
@@ -116,16 +116,33 @@ public class View2dManager : MonoBehaviour {
     #region auto display image
     public void AutoNextImage()
     {
+        Debug.Log("Auto next image!");
+        //int i = 0;
+        //while (i < recvData.sprites.Count)
+        //{
+        //    if (timeStart > recvData.imgTime[currentImage])
+        //    {
+        //        currentImage++;
+        //        imageDisplay.sprite = listImage[currentImage];
+        //        Debug.Log("Auto next image");
+        //    }
+        //    timeStart += Time.deltaTime;
+        //    i++;
+        //}
+
         int i = 0;
         while (i < recvData.sprites.Count)
         {
-            if (timeStart > recvData.imgTime[currentImage])
-            {
-                currentImage++;
-                imageDisplay.sprite = listImage[currentImage];
-            }
-            timeStart += Time.deltaTime;
+            ///Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
+            int n = recvData.sprites.Count;
+            float audioLeap = (float)uiSliderTime.maxValue / (float)n;
+            //Debug.Log("Audio leap: " + audioLeap);
+
+            int m = (int)(uiSliderTime.value / audioLeap);
+            //Debug.Log(" m " + m);
+            imageDisplay.sprite = listImage[m];
             i++;
+            //Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
         }
     }
     #endregion 
@@ -190,8 +207,6 @@ public class View2dManager : MonoBehaviour {
         }
     }
 
-
-
     //button zoom in
     //vector tang giam chi so zoom
     private Vector3 zoomVector = new Vector3(0.1f, 0.1f, 0f); //chi so tang giam khi zoom
@@ -207,7 +222,6 @@ public class View2dManager : MonoBehaviour {
         }
        
     }
-
 
     // button zoom out
     public void OnClick_BtnZoomOut()
@@ -280,9 +294,10 @@ public class View2dManager : MonoBehaviour {
                         //Debug.Log(audio.clip); 
                         audio.Play();
                         imageDisplay.sprite = listImage[0];
-                        //StartCoroutine(AutoNextImage());
+                        //AutoNextImage();
                     }
                     break;
+                  
                 }
 
             default:
