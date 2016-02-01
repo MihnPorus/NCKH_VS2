@@ -14,7 +14,7 @@ public class PlaceTargetWithMouse : MonoBehaviour
     {
         //kiem tra bien checkSitemap
         if (PlayerPrefs.GetInt("checkSiteMap") ==0) return;
-        if (Input.GetMouseButtonDown(0)&&Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetMouseButtonDown(0))
         {
             AICharacterControl.agent.enabled = true;
             Debug.Log("PlaceTargetWithMouse - GetMouseButtonDown()");

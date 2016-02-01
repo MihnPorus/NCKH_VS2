@@ -122,7 +122,7 @@ public class MoveCharator : MonoBehaviour
     public void RotateView()
     {
 
-        if (Input.GetMouseButton(0) && !Input.GetKey(KeyCode.LeftShift) && isRotatable)
+        if (Input.GetMouseButton(1) && isRotatable)
         {
 
             float yRot = Input.GetAxis("Mouse X") * XSensitivity;
