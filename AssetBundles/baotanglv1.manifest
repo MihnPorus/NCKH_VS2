@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 294624280
+CRC: 3393632522
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 878ffbcf1e4e0ae3ed47066f766a22e1
+    Hash: 512c4149bbdfad58d201fffd42c5d299
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 142cb640776b9a21393431fbf2533f1e
+    Hash: 1ed7712c105779a803750981e2546a06
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -92,7 +92,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7feaa0f29cb6af04d9de54a26fdbe469, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 936bf9d389088cd4eb2401a37259ddeb, type: 3}
+  Script: {fileID: 11500000, guid: 090c3654e36466b47b06e6289e9c629e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f3efae94c1759304da71e5f8b912e350, type: 3}
 - Class: 114
@@ -122,7 +122,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7f55014fa1d1d0a4eb22da23e6161504, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 090c3654e36466b47b06e6289e9c629e, type: 3}
+  Script: {fileID: 11500000, guid: 936bf9d389088cd4eb2401a37259ddeb, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 120
@@ -156,38 +156,38 @@ ClassTypes:
 Assets:
 - Assets/Scene/Bao tang.unity
 Dependencies:
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata10
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata14
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/mapdata
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel7
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel14
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata12
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel12
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata2
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/sabanmodel
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/baidadong
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel3
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata11
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata8
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata9
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel10
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel5
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel1
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/mapmodel
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata4
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel13
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata6
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel8
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata13
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel4
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata3
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata1
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata5
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel9
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturedata7
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel11
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel6
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/picturemodel2
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/biachuquyenmodel
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/taucamodel
-- C:/Users/Mihn Porus/Documents/GitHub/NCKH_VS2/AssetBundles/biachuquyendata
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata10
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata14
+- E:/Example/Unity/NCKH_VS2/AssetBundles/mapdata
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel7
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel14
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata12
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel12
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata2
+- E:/Example/Unity/NCKH_VS2/AssetBundles/sabanmodel
+- E:/Example/Unity/NCKH_VS2/AssetBundles/baidadong
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel3
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata11
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata8
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata9
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel10
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel5
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel1
+- E:/Example/Unity/NCKH_VS2/AssetBundles/mapmodel
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata4
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel13
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata6
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel8
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata13
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel4
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata3
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata1
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata5
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel9
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata7
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel11
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel6
+- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel2
+- E:/Example/Unity/NCKH_VS2/AssetBundles/biachuquyenmodel
+- E:/Example/Unity/NCKH_VS2/AssetBundles/taucamodel
+- E:/Example/Unity/NCKH_VS2/AssetBundles/biachuquyendata

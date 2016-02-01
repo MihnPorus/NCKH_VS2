@@ -28,6 +28,13 @@ public class IslandStar : MonoBehaviour {
             EventManager.Instance.PostNotification("OnDownloadIsland", this, 0);
     }
 
+    public void OnMouseDown()
+    {
+        OnMouseEnter();
+        Debug.Log("OnMouseDown");
+        StartCoroutine(OnResponseIslandData());
+    }
+
     void OnMouseEnter()
     {
         starImg.color = Color.red;
@@ -106,15 +113,15 @@ public class IslandStar : MonoBehaviour {
         }
     }
 
-    IEnumerator OnResponseIslandData(int temp)
+    IEnumerator OnResponseIslandData(int temp=-1)
     {
-        if (order == temp - 1 || order == temp + 1)
+        if (order != temp && temp != -1)
         {
             OnMouseExit();
             // Tat ten dao di
             textObject.SetActive(false);
         }
-        else if (order == temp)
+        else if (order == temp || temp == -1)
         {
             yield return StartCoroutine(WaitForReady());
             // Hien thi ten dao
@@ -123,7 +130,6 @@ public class IslandStar : MonoBehaviour {
             OnMouseEnter();
             EventManager.Instance.PostNotification("OnIslandPlay", this, data);
         }
-
     }
 
     public void OnEvent(string eventType, Component sender, object param = null)

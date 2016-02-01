@@ -11,6 +11,7 @@ public class ViewSaBan : MonoBehaviour {
     AudioSource audioSource;
     int count;
     int countIsland = 0;
+    IEnumerator islandPlayRoutine = null;
 
     public Image bgImage;
     public GameObject islandView;          // background cac dao
@@ -69,27 +70,22 @@ public class ViewSaBan : MonoBehaviour {
             if (countIsland == 0)
             {
                 countIsland = 1;
-                mainImage.gameObject.SetActive(true);
+                //mainImage.gameObject.SetActive(true);
                 islandView.SetActive(true);
                 bgImage.gameObject.SetActive(false);
-
-                EventManager.Instance.PostNotification("OnRequestIslandData", this, countIsland);
+                if (PlayerPrefs.GetInt("IsAutoMode") == 1)
+                {
+                    mainImage.gameObject.SetActive(true);
+                    EventManager.Instance.PostNotification("OnRequestIslandData", this, countIsland);
+                }
                 Debug.Log(countIsland);
             }
-            else if (countIsland < numberOfIsland - 1)
+            else if (countIsland < numberOfIsland - 1 && PlayerPrefs.GetInt("IsAutoMode") != 1)
             {
                 mainImage.gameObject.SetActive(true);
                 islandView.SetActive(true);
                 countIsland++;
                 EventManager.Instance.PostNotification("OnRequestIslandData", this, countIsland);
-            }
-            else
-            {
-                EventManager.Instance.PostNotification("OnEndOfView2D", this, 15);
-                bgImage.gameObject.SetActive(true);
-                mainImage.gameObject.SetActive(false);
-                countIsland = 0;
-                gameObject.SetActive(false);
             }
         }
     }
@@ -145,7 +141,15 @@ public class ViewSaBan : MonoBehaviour {
                     sabanData = (PictureData)param;
                     //Debug.Log(param);
 
-                    StartCoroutine(AutoPlayIsland());
+                    if (PlayerPrefs.GetInt("IsAutoMode") == 1)
+                        StartCoroutine(AutoPlayIsland());
+                    else
+                    {
+                        if (islandPlayRoutine != null)
+                            StopCoroutine(islandPlayRoutine);
+                        islandPlayRoutine = PlayIsland();
+                        StartCoroutine(PlayIsland());
+                    }
                     
                     break;
                 }
@@ -167,6 +171,10 @@ public class ViewSaBan : MonoBehaviour {
         count++;
         if (!isLast)
             EventManager.Instance.PostNotification("OnSabanNextData", this, count);
+        else if (PlayerPrefs.GetInt("IsAutoMode") != 1)
+        {
+            bgImage.gameObject.SetActive(false);
+        }
         else
         {
             bgImage.gameObject.SetActive(false);
@@ -180,13 +188,7 @@ public class ViewSaBan : MonoBehaviour {
     // Play noi dung cac dao lan luot
     IEnumerator AutoPlayIsland()
     {
-        mainImage.gameObject.SetActive(true);
-
-        StartCoroutine(sabanData.PlayImage(mainImage));
-        yield return StartCoroutine(sabanData.PlayAudio(audioSource, true));
-        yield return StartCoroutine(sabanData.PlayAudio(audioSource, false));
-        
-        mainImage.gameObject.SetActive(false);
+        yield return StartCoroutine(PlayIsland());
 
         countIsland++;
         if (countIsland < numberOfIsland)
@@ -198,5 +200,16 @@ public class ViewSaBan : MonoBehaviour {
             gameObject.SetActive(false);
         }
         //Debug.Log(countIsland);
+    }
+
+    IEnumerator PlayIsland()
+    {
+        mainImage.gameObject.SetActive(true);
+
+        StartCoroutine(sabanData.PlayImage(mainImage));
+        yield return StartCoroutine(sabanData.PlayAudio(audioSource, true));
+        yield return StartCoroutine(sabanData.PlayAudio(audioSource, false));
+
+        mainImage.gameObject.SetActive(false);
     }
 }
