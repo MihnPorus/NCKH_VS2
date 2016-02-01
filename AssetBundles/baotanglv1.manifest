@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3393632522
+CRC: 903196234
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 512c4149bbdfad58d201fffd42c5d299
+    Hash: 919b02b6b8152d4a60be8c5bbf0b052f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1ed7712c105779a803750981e2546a06
@@ -156,38 +156,38 @@ ClassTypes:
 Assets:
 - Assets/Scene/Bao tang.unity
 Dependencies:
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata10
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata14
-- E:/Example/Unity/NCKH_VS2/AssetBundles/mapdata
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel7
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel14
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata12
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel12
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata2
-- E:/Example/Unity/NCKH_VS2/AssetBundles/sabanmodel
-- E:/Example/Unity/NCKH_VS2/AssetBundles/baidadong
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel3
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata11
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata8
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata9
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel10
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel5
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel1
-- E:/Example/Unity/NCKH_VS2/AssetBundles/mapmodel
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata4
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel13
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata6
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel8
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata13
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel4
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata3
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata1
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata5
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel9
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturedata7
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel11
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel6
-- E:/Example/Unity/NCKH_VS2/AssetBundles/picturemodel2
-- E:/Example/Unity/NCKH_VS2/AssetBundles/biachuquyenmodel
-- E:/Example/Unity/NCKH_VS2/AssetBundles/taucamodel
-- E:/Example/Unity/NCKH_VS2/AssetBundles/biachuquyendata
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata10
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata14
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/mapdata
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel7
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel14
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata12
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel12
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata2
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/sabanmodel
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/baidadong
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel3
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata11
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata8
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata9
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel10
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel5
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel1
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/mapmodel
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata4
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel13
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata6
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel8
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata13
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel4
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata3
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata1
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata5
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel9
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturedata7
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel11
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel6
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/picturemodel2
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/biachuquyenmodel
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/taucamodel
+- E:/NCKH/Lan1/BaoTang/NCKH_VS2/AssetBundles/biachuquyendata

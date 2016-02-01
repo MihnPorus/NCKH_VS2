@@ -43,7 +43,6 @@ public class View2dManager : MonoBehaviour {
         uiSliderVolume.minValue = 0;
        
         //gia tri uislider time
-       
         EventManager.Instance.AddListener("OnPictureManualClick", OnEvent);
         View2dWindow.SetActive(false);
 
@@ -59,15 +58,9 @@ public class View2dManager : MonoBehaviour {
         
     void Update()
     {
-        currentVolume = uiSliderVolume.value ; // lay gia tri volume hien tai tren uiSliderVolume
-
-        //display image and time
-        DisplayAudioTime();
-        AutoNextImage();
-
         //xet che do manual se hien buttonSiteMap, neu auto thi ko hien
         int mode = PlayerPrefs.GetInt("IsAutoMode");
-        Debug.Log("mode =" + mode);
+        Debug.Log("mode ");
         if (mode == 0)
         {
             btnSiteMap.SetActive(true);
@@ -79,73 +72,46 @@ public class View2dManager : MonoBehaviour {
             Debug.Log("Deactive Sitemap !");
         }
 
+        // kiem tra xem man hinh view 2d co dang bat. ko
+        if (View2dWindow.active)
+        {
+            AutoNextImage();
+            currentVolume = uiSliderVolume.value; // lay gia tri volume hien tai tren uiSliderVolume
+
+            //display image and time
+            DisplayAudioTime();
+
+        }
     }
 
     #region xu li button
-    // next anh?
-    public void OnClick_BtnNext()
-    {
+    //// next anh?
+    //public void OnClick_BtnNext()
+    //{
         
-        if (currentImage == maxImage - 1)
-        {
-            //audio.Stop();
-            Debug.Log("Tang chi so");
-            return;
-        }
-        currentImage++;
-        imageDisplay.sprite = listImage[currentImage];
+    //    if (currentImage == maxImage - 1)
+    //    {
+    //        //audio.Stop();
+    //        Debug.Log("Tang chi so");
+    //        return;
+    //    }
+    //    currentImage++;
+    //    imageDisplay.sprite = listImage[currentImage];
+    //}
 
-        
+    //// previous anh?
+    //public void OnClick_BtnPrevious()
+    //{
+    //    if (currentImage == 0)
+    //    {
+    //        Debug.Log("het anh");
+    //        currentImage = 0;
+    //        return;
+    //    }
+    //    currentImage--;
+    //    imageDisplay.sprite = listImage[currentImage];
+    //}
 
-    }
-
-    // previous anh?
-    public void OnClick_BtnPrevious()
-    {
-        
-        if (currentImage == 0)
-        {
-            Debug.Log("het anh");
-            currentImage = 0;
-            return;
-        }
-        currentImage--;
-        imageDisplay.sprite = listImage[currentImage];
-    }
-
-    #region auto display image
-    public void AutoNextImage()
-    {
-        Debug.Log("Auto next image!");
-        //int i = 0;
-        //while (i < recvData.sprites.Count)
-        //{
-        //    if (timeStart > recvData.imgTime[currentImage])
-        //    {
-        //        currentImage++;
-        //        imageDisplay.sprite = listImage[currentImage];
-        //        Debug.Log("Auto next image");
-        //    }
-        //    timeStart += Time.deltaTime;
-        //    i++;
-        //}
-
-        int i = 0;
-        while (i < recvData.sprites.Count)
-        {
-            ///Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
-            int n = recvData.sprites.Count;
-            float audioLeap = (float)uiSliderTime.maxValue / (float)n;
-            //Debug.Log("Audio leap: " + audioLeap);
-
-            int m = (int)(uiSliderTime.value / audioLeap);
-            //Debug.Log(" m " + m);
-            imageDisplay.sprite = listImage[m];
-            i++;
-            //Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
-        }
-    }
-    #endregion 
 
     // exit panel
     public void OnClick_BtnExit()
@@ -270,6 +236,41 @@ public class View2dManager : MonoBehaviour {
 
     #endregion
 
+
+    #region auto display image
+    public void AutoNextImage()
+    {
+        Debug.Log("Auto next image!");
+        //int i = 0;
+        //while (i < recvData.sprites.Count)
+        //{
+        //    if (timeStart > recvData.imgTime[currentImage])
+        //    {
+        //        currentImage++;
+        //        imageDisplay.sprite = listImage[currentImage];
+        //        Debug.Log("Auto next image");
+        //    }
+        //    timeStart += Time.deltaTime;
+        //    i++;
+        //}
+
+        int i = 0;
+        while (i < recvData.sprites.Count)
+        {
+            ///Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
+            int n = recvData.sprites.Count;
+            float audioLeap = (float)uiSliderTime.maxValue / (float)n;
+            //Debug.Log("Audio leap: " + audioLeap);
+
+            int m = (int)(uiSliderTime.value / audioLeap);
+            //Debug.Log(" m " + m);
+            imageDisplay.sprite = listImage[m];
+            i++;
+            //Debug.Log(" uislider max value " + uiSliderTime.maxValue + " uislider value " + uiSliderTime.value);
+        }
+    }
+    #endregion 
+
     public void OnEvent(string eventType, Component sender, object param = null)
     {
         switch (eventType)
@@ -288,7 +289,6 @@ public class View2dManager : MonoBehaviour {
                         Debug.Log("max image " + maxImage);
                         View2dWindow.SetActive(true);
                         audio.clip = recvData.detailAudio;
-
                         uiSliderTime.minValue = 0;
                         uiSliderTime.maxValue = audio.clip.length;
                         //Debug.Log(audio.clip); 
@@ -340,8 +340,6 @@ public class View2dManager : MonoBehaviour {
         Debug.Log("Go site map go !");
         // tăt navmesh agent
         AICharacterControl.agent.enabled = false;
-        
-        
     }
 
 }
