@@ -135,7 +135,11 @@ public class Picture : Item {
         if (data.introAudio == null)
         {
             // Hiệu ứng khi chờ download đặt ở đây
+            Loader.waitingScreen.SetActive(true);
+
             yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
+
+            Loader.waitingScreen.SetActive(false);
         }
         model.GetComponent<Renderer>().material.color = Color.red;
         // Play intro audio
@@ -161,7 +165,11 @@ public class Picture : Item {
         if (data.introAudio == null)
         {
             // Hiệu ứng khi chờ download đặt ở đây
+            Loader.waitingScreen.SetActive(true);
+
             yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
+
+            Loader.waitingScreen.SetActive(false);
         }
         
         clickCount=1;

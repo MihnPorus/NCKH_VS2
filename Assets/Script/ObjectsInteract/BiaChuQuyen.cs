@@ -111,7 +111,9 @@ public class BiaChuQuyen : Item {
     {
         if (data.introAudio == null)
         {
+            Loader.waitingScreen.SetActive(true);
             yield return StartCoroutine(DownloadData());
+            Loader.waitingScreen.SetActive(false);
         }
         model.GetComponent<Renderer>().material.color = Color.red;
         //yield return StartCoroutine(data.PlayAudio(source, true));
@@ -126,9 +128,11 @@ public class BiaChuQuyen : Item {
     {
         if (data.introAudio == null)
         {
+            Loader.waitingScreen.SetActive(true);
             yield return StartCoroutine(DownloadData());
 
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
+            Loader.waitingScreen.SetActive(false);
         }
         model.GetComponent<Renderer>().material.color = Color.red;
 

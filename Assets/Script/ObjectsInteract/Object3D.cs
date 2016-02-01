@@ -93,8 +93,10 @@ public class Object3D : Item {
         model.GetComponent<Renderer>().material.color = Color.red;
         if (data.introAudio == null)
         {
+            Loader.waitingScreen.SetActive(true);
             yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
+            Loader.waitingScreen.SetActive(false);
         }
         
         yield return StartCoroutine(data.PlayAudio(source, true));
@@ -107,7 +109,9 @@ public class Object3D : Item {
         model.GetComponent<Renderer>().material.color = Color.red;
         if (data.introAudio == null)
         {
+            Loader.waitingScreen.SetActive(true);
             yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
+            Loader.waitingScreen.SetActive(false);
         }
         
 

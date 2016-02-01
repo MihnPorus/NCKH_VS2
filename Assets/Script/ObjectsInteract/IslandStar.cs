@@ -108,10 +108,12 @@ public class IslandStar : MonoBehaviour {
 
     IEnumerator WaitForReady()
     {
+        Loader.waitingScreen.SetActive(true);
         while (!isReady)
         {
             yield return null;
         }
+        Loader.waitingScreen.SetActive(false);
     }
 
     IEnumerator OnResponseIslandData(int temp=-1)

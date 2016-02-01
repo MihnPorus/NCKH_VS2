@@ -127,7 +127,7 @@ public class SaBan : Item {
         // Nếu chưa có dữ liệu thì download về
         if (data[0].introAudio == null)
         {
-
+            Loader.waitingScreen.SetActive(true);
             // yield return download du lieu dau tien o day
             #region First Data
 
@@ -142,6 +142,7 @@ public class SaBan : Item {
             data[0].imgTime = tempTime;
 
             #endregion
+            Loader.waitingScreen.SetActive(false);
         }
 
         model.GetComponent<Renderer>().material.color = Color.red;
@@ -179,6 +180,7 @@ public class SaBan : Item {
         // Nếu chưa có dữ liệu thì download về
         if (data[0].introAudio == null)
         {
+            Loader.waitingScreen.SetActive(true);
             // yield return download du lieu dau tien o day
             #region First Data
 
@@ -193,6 +195,7 @@ public class SaBan : Item {
             data[0].imgTime = tempTime;
 
             #endregion
+            Loader.waitingScreen.SetActive(false);
         }
 
         model.GetComponent<Renderer>().material.color = Color.red;
