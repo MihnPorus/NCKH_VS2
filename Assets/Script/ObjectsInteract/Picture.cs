@@ -31,7 +31,7 @@ public class Picture : Item {
         yield return StartCoroutine(data.GetAudio(1));
         yield return StartCoroutine(data.GetText(1));
         yield return StartCoroutine(data.GetSprites());
-        StartCoroutine(DataStorage.Instance.DownloadPicture(this, true));
+        StartCoroutine(DataStorage.Instance.Download<Picture>(this, true));
 
         // Nhan su kien
         EventManager.Instance.AddListener("OnShowTime", OnEvent);
@@ -137,7 +137,7 @@ public class Picture : Item {
             // Hiệu ứng khi chờ download đặt ở đây
             Loader.waitingScreen.SetActive(true);
 
-            yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<Picture>(this, false));
 
             Loader.waitingScreen.SetActive(false);
         }
@@ -167,7 +167,7 @@ public class Picture : Item {
             // Hiệu ứng khi chờ download đặt ở đây
             Loader.waitingScreen.SetActive(true);
 
-            yield return StartCoroutine(DataStorage.Instance.DownloadPicture(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<Picture>(this, false));
 
             Loader.waitingScreen.SetActive(false);
         }

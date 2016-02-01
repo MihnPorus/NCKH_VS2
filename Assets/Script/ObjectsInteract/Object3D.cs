@@ -19,7 +19,7 @@ public class Object3D : Item {
         data.id = id;
         yield return StartCoroutine(data.GetAudio(1));
         data.model = modelPrefab;
-        StartCoroutine(DataStorage.Instance.DownloadObject3D(this, true));
+        StartCoroutine(DataStorage.Instance.Download<Object3D>(this, true));
 
         #endregion
 
@@ -94,7 +94,7 @@ public class Object3D : Item {
         if (data.introAudio == null)
         {
             Loader.waitingScreen.SetActive(true);
-            yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<Object3D>(this, false));
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
             Loader.waitingScreen.SetActive(false);
         }
@@ -110,7 +110,7 @@ public class Object3D : Item {
         if (data.introAudio == null)
         {
             Loader.waitingScreen.SetActive(true);
-            yield return StartCoroutine(DataStorage.Instance.DownloadObject3D(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<Object3D>(this, false));
             Loader.waitingScreen.SetActive(false);
         }
         

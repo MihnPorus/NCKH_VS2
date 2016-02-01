@@ -11,36 +11,14 @@ public class BiaChuQuyen : Item {
     AudioSource source;
     int clickCount = 0;
     // Use this for initialization
-    void Start()
+    IEnumerator Start()
     {
         
-        #region Download Model at the start
+        
         data = new Object3Ddata();
         data.id = id;
-        StartCoroutine(data.GetAudio(1));
-        //yield return StartCoroutine(data.GetModel());
-
-        //while (!Loader.isManifestOK)
-        //    yield return null;
-
-        //AssetBundleLoadAssetOperation request = 
-        //    BundleManager.LoadAssetAsync(data.modelBundle[0], data.modelBundle[1], typeof(GameObject));
-        //if (request == null)
-        //    yield break;
-        ////Debug.Log(request);
-        //yield return StartCoroutine(request);
-
-        //data.model = request.GetAsset<GameObject>();
-
-        //BundleManager.UnloadBundle(data.modelBundle[0]);
-
-        //model = Instantiate(data.model) as GameObject;
-        //model.transform.parent = gameObject.transform;
-        //model.transform.localPosition = Vector3.zero;
-        //model.transform.localScale = Vector3.one;
-
-
-        #endregion
+        yield return StartCoroutine(data.GetAudio(1));
+        StartCoroutine(DataStorage.Instance.Download<BiaChuQuyen>(this, true));
 
         source = GetComponent<AudioSource>();
 
@@ -112,7 +90,7 @@ public class BiaChuQuyen : Item {
         if (data.introAudio == null)
         {
             Loader.waitingScreen.SetActive(true);
-            yield return StartCoroutine(DownloadData());
+            yield return StartCoroutine(DataStorage.Instance.Download<BiaChuQuyen>(this, false));
             Loader.waitingScreen.SetActive(false);
         }
         model.GetComponent<Renderer>().material.color = Color.red;
@@ -129,7 +107,7 @@ public class BiaChuQuyen : Item {
         if (data.introAudio == null)
         {
             Loader.waitingScreen.SetActive(true);
-            yield return StartCoroutine(DownloadData());
+            yield return StartCoroutine(DataStorage.Instance.Download<BiaChuQuyen>(this, false));
 
             //Debug.Log(data.introAudio + " - " + data.detailAudio);
             Loader.waitingScreen.SetActive(false);

@@ -30,7 +30,7 @@ public class SaBan : Item {
         yield return StartCoroutine(data[0].GetText(1));
         yield return StartCoroutine(data[0].GetSprites());
 
-        StartCoroutine(DataStorage.Instance.DownloadSaban(this, true));
+        StartCoroutine(DataStorage.Instance.Download<SaBan>(this, true));
 
         aSource = GetComponent<AudioSource>();
 
@@ -131,7 +131,7 @@ public class SaBan : Item {
             // yield return download du lieu dau tien o day
             #region First Data
 
-            yield return StartCoroutine(DataStorage.Instance.DownloadSaban(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<SaBan>(this, false));
 
 
             List<float> tempTime = new List<float>();
@@ -184,7 +184,7 @@ public class SaBan : Item {
             // yield return download du lieu dau tien o day
             #region First Data
 
-            yield return StartCoroutine(DataStorage.Instance.DownloadSaban(this, false));
+            yield return StartCoroutine(DataStorage.Instance.Download<SaBan>(this, false));
 
 
             List<float> tempTime = new List<float>();
