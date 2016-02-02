@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2483076853
+CRC: 1107822507
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7c9e9444d299ffce8d6a5b6fe8bb61d0
+    Hash: 96161e3f08d6c255dcd682f84b4a2d83
   TypeTreeHash:
     serializedVersion: 2
     Hash: e6d74f2d6b370c4d26f3cae461538e43
@@ -26,7 +26,6 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/Anh truong sa/Anh dep/Phap dung bia chu quyen.jpg
 - Assets/Prefabs/Pictures/PictureModel10.prefab
 - Assets/Materials/Materials tranh/A11.mat
 Dependencies: []

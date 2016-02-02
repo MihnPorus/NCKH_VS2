@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3156433431
+CRC: 1986155249
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fe6e0110fdc03bd2db9d5a94015121d1
+    Hash: 40427d276aecf8de7f2e41bfa7fcd0e6
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
@@ -16,7 +16,6 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
-- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa3.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_CauCang.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa1.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa-tamgiac.jpg"
@@ -30,6 +29,7 @@ Assets:
 - Assets/Sound/Dao_va_TenDao/Ten_Dao_TruongSa.mp3
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa_dientich.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/Dien gio tren dao.jpg"
+- "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa3.jpg"
 - Assets/Sound/Dao_va_TenDao/Dao_TruongSa1.mp3
 - "Assets/Anh Dao/\u0110\u1EA3o Tr\u01B0\u1EDDng Sa/DaoTruongSa-dai.jpg"
 Dependencies: []

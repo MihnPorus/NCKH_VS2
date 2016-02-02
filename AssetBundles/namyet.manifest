@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2161194681
+CRC: 2105328435
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a7a9d2a5efe1c0037cbec8f65a911cef
+    Hash: 07c3f633d67014df8271f948f946800a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
@@ -17,11 +17,11 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Sound/Dao_va_TenDao/Dao_NamYet.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - ve tinh.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - khoangcach.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - dai.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet- trung tam van hoa.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - cau cang.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - rong.jpg"
-- "Assets/Anh Dao/\u0110\u1EA3o Nam Y\u1EBFt/Nam Yet - ve tinh.jpg"
 - Assets/Sound/Dao_va_TenDao/Ten_Dao_NamYet1.mp3
 Dependencies: []

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 799721103
+CRC: 3652784435
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5e5d10ccb9ef8c22b987333aa3679f75
+    Hash: 9714ca1383f603e31f3afdc05e1f8ed9
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
@@ -18,9 +18,9 @@ ClassTypes:
 Assets:
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-GacMa.jpg"
 - Assets/Sound/Dao_va_TenDao/Baida_CoLin.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin 4[1].jpg"
 - Assets/Sound/Dao_va_TenDao/Ten_Baida_CoLin.mp3
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-ve tinh1[1].jpg"
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-Sinh ton.jpg"
-- "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin 4[1].jpg"
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 colin/Co Lin-LenDao.jpg"
 Dependencies: []

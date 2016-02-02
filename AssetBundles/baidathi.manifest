@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1940083341
+CRC: 1793263597
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ddb1133ad4f0c4638d9d8390b486bfc5
+    Hash: 5c3efb70204c83ce680b7c2d753d5ee5
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
@@ -19,7 +19,7 @@ Assets:
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 Th\u1ECB/Bai da Thi-dai.jpg"
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 Th\u1ECB/Bai da Thi-rong.jpg"
 - "Assets/Anh Dao/B\xE3i \u0111\xE1 Th\u1ECB/Bai da Thi-ve tinh.jpg"
-- "Assets/Anh Dao/B\xE3i \u0111\xE1 Th\u1ECB/da thi[1].jpg"
 - Assets/Sound/Dao_va_TenDao/Baida_Thi.mp3
+- "Assets/Anh Dao/B\xE3i \u0111\xE1 Th\u1ECB/da thi[1].jpg"
 - Assets/Sound/Dao_va_TenDao/Ten_Baida_Thi.mp3
 Dependencies: []

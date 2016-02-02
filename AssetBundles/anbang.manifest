@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1510009528
+CRC: 174222476
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce3236e08591e2ae9d70799907aba380
+    Hash: dd40c49e5fd542e164244aa67a6ad956
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4ef72ed83e657f06a6e7369fbcb1a8d6
@@ -18,8 +18,8 @@ ClassTypes:
 Assets:
 - Assets/Sound/Dao_va_TenDao/Dao_AnBang.mp3
 - "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - ve tinh.jpg"
-- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang1.jpg"
 - Assets/Sound/Dao_va_TenDao/Ten_Dao_AnBang.mp3
+- "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang1.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - khoangcach1.jpg"
 - "Assets/Anh Dao/\u0110\u1EA3o An Bang/an bang - khoangcach2.jpg"
 Dependencies: []
