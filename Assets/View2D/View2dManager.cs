@@ -53,7 +53,8 @@ public class View2dManager : MonoBehaviour {
         checkSitemap = 1;
         PlayerPrefs.SetInt("checkSiteMap", checkSitemap);
         PlayerPrefs.Save();
-
+        // Dang ky su kien
+        EventManager.Instance.AddListener("OnReload", OnEvent);
     }
         
     void Update()
@@ -298,6 +299,11 @@ public class View2dManager : MonoBehaviour {
                     }
                     break;
                   
+                }
+            case "OnReload":
+                {
+                    siteMapPanel.SetActive(false);
+                    break;
                 }
 
             default:
