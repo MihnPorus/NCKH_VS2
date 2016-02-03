@@ -105,6 +105,7 @@ public class ViewSaBan : MonoBehaviour {
                     
                     // Khong cho tuong tac voi cac vat the khi dang trong man hinh 2D
                     Item.isInteractable = false;
+                    AICharacterControl.isEscapable = false;
 
                     // Play detail audio
                     StartCoroutine(PlayContent(true, false));
