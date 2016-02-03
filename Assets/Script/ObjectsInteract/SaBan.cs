@@ -203,6 +203,7 @@ public class SaBan : Item {
         clickCount = 1;
         IEnumerator routine = data[0].PlayAudio(aSource, true);
         StartCoroutine(routine);
+        StartCoroutine(CheckForLeave());
         while (clickCount < 2 && !data[0].isCancel)
         {
             if (!routine.MoveNext())
@@ -256,6 +257,24 @@ public class SaBan : Item {
         else
             EventManager.Instance.PostNotification("OnEndOfView2D", this, id);
         clickCount = 0;
+    }
+
+    public override IEnumerator DownloadData()
+    {
+        for (int i = 0; i < 3; i++)
+            yield return StartCoroutine(DownloadData(i));
+    }
+
+    IEnumerator CheckForLeave()
+    {
+        NavMeshAgent agent = AICharacterControl.agent;
+        while (!agent.hasPath)
+            yield return null;
+        if (aSource.isPlaying)
+        {
+            data[0].isCancel = true;
+            data[0].Stop();
+        }
     }
 
     public void OnEvent(string eventType, Component sender, object param = null)
@@ -321,9 +340,5 @@ public class SaBan : Item {
         }
     }
 
-    public override IEnumerator DownloadData()
-    {
-        for (int i = 0; i < 3; i++)
-            yield return StartCoroutine(DownloadData(i));
-    }
+    
 }

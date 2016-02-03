@@ -16,8 +16,8 @@ public class IslandStar : MonoBehaviour {
     //public AudioClip detail;
 
     PictureData data;
-
     Image starImg;
+    bool isDownloading = false;
 
     void Start()
     {
@@ -33,6 +33,8 @@ public class IslandStar : MonoBehaviour {
     {
         OnMouseEnter();
         Debug.Log("OnMouseDown");
+        if (!isReady && !isDownloading)
+            StartCoroutine(DownLoadContent(true));
         StartCoroutine(OnResponseIslandData());
     }
 
@@ -46,13 +48,13 @@ public class IslandStar : MonoBehaviour {
         starImg.color = Color.white;
     }
 
-    public IEnumerator DownLoadContent()
+    public IEnumerator DownLoadContent(bool isSingle = false)
     {
         if (data == null)
         {
             data = new PictureData();
             data.id = id;
-
+            isDownloading = true;
             #region Download Island Content
             yield return StartCoroutine(data.GetAudio(1));
             AssetBundleLoadAssetOperation request =
@@ -98,12 +100,12 @@ public class IslandStar : MonoBehaviour {
 
             data.imgTime = time;
             #endregion
-
+            isDownloading = false;
         }
 
         isReady = true;
-
-        EventManager.Instance.PostNotification("OnDownloadIsland", this, order + 1);
+        if (!isSingle)
+            EventManager.Instance.PostNotification("OnDownloadIsland", this, order + 1);
     }
 
     IEnumerator WaitForReady()
@@ -152,7 +154,7 @@ public class IslandStar : MonoBehaviour {
                 {
                     int temp = (int)param;
 
-                    if (order == temp)
+                    if (order == temp && !isDownloading)
                     {
                         Debug.Log("Download Island: " + order);
                         StartCoroutine(DownLoadContent());

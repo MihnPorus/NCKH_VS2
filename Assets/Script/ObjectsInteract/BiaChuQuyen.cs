@@ -117,6 +117,7 @@ public class BiaChuQuyen : Item {
         clickCount = 1;
         IEnumerator routine = data.PlayAudio(source, true);
         StartCoroutine(routine);
+        StartCoroutine(CheckForLeave());
         while (clickCount < 2 && !data.isCancel)
         {
             if (!routine.MoveNext())
@@ -127,7 +128,14 @@ public class BiaChuQuyen : Item {
         clickCount = 0;
 
         if (!data.isCancel)
-            yield return StartCoroutine(data.PlayAudio(source, false));
+        {
+            routine = data.PlayAudio(source, false);
+            StartCoroutine(routine);
+            while (routine.MoveNext() && !data.isCancel)
+                yield return null;
+            StopCoroutine(routine);
+            source.Stop();
+        }
 
         model.GetComponent<Renderer>().material.color = Color.white;
     }
@@ -153,5 +161,17 @@ public class BiaChuQuyen : Item {
         BundleManager.UnloadBundle(data.audioBundle[0]);
 
         //Debug.Log(data.introAudio + " - " + data.detailAudio);
+    }
+
+    IEnumerator CheckForLeave()
+    {
+        NavMeshAgent agent = AICharacterControl.agent;
+        while (!agent.hasPath)
+            yield return null;
+        if (source.isPlaying)
+        {
+            data.isCancel = true;
+            data.Stop();
+        }
     }
 }

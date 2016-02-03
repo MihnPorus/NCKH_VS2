@@ -302,7 +302,7 @@ public class View2dManager : MonoBehaviour {
                 }
             case "OnReload":
                 {
-                    siteMapPanel.SetActive(false);
+                    HideSiteMap();
                     break;
                 }
 

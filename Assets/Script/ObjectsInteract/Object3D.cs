@@ -118,6 +118,7 @@ public class Object3D : Item {
         clickCount = 1;
         IEnumerator routine = data.PlayAudio(source, true);
         StartCoroutine(routine);
+        StartCoroutine(CheckForLeave());
         while (clickCount < 2 && !data.isCancel)
         {
             if (!routine.MoveNext())
@@ -154,6 +155,18 @@ public class Object3D : Item {
         data.detailAudio = request.GetAsset<AudioClip>();
 
         BundleManager.UnloadBundle(data.audioBundle[0]);
+    }
+
+    IEnumerator CheckForLeave()
+    {
+        NavMeshAgent agent = AICharacterControl.agent;
+        while (!agent.hasPath)
+            yield return null;
+        if (source.isPlaying)
+        {
+            data.isCancel = true;
+            data.Stop();
+        }
     }
 }
 

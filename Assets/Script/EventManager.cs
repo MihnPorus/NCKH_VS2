@@ -9,7 +9,7 @@ public class EventManager : MonoBehaviour
     public static EventManager Instance
     {
         get { return instance; }
-        set { }
+        private set { }
     }
 
     private static EventManager instance = null;
@@ -113,3 +113,24 @@ public class EventManager : MonoBehaviour
         RemoveRedundancies();
     }
 }
+
+public class GameManager
+{
+    private static GameManager instance = null;
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance == null)
+                instance = new GameManager();
+            return instance;
+        }
+        private set { }
+    }
+
+    private GameManager()
+    {
+
+    }
+}
+
