@@ -114,6 +114,7 @@ public class SaBan : Item {
                 yield return StartCoroutine(request);
                 data[number].sprites.Add(request.GetAsset<Sprite>());
             }
+            Debug.Log(number + " - " + data[number].sprites.Count);
             BundleManager.UnloadBundle(data[number].audioBundle[0]);
             #endregion
         }
@@ -156,6 +157,10 @@ public class SaBan : Item {
 
         else
         {
+            for (int i = 0; i < 7; i++)
+            {
+                data[0].imgTime.Add(mTime[i]);
+            }
 
             EventManager.Instance.PostNotification("OnSabanFirstTime", this, data[0]);
 
@@ -186,14 +191,6 @@ public class SaBan : Item {
 
             yield return StartCoroutine(DataStorage.Instance.Download<SaBan>(this, false));
 
-
-            List<float> tempTime = new List<float>();
-            for (int i = 0; i < 7; i++)
-            {
-                tempTime.Add(mTime[i]);
-            }
-            data[0].imgTime = tempTime;
-
             #endregion
             Loader.waitingScreen.SetActive(false);
         }
@@ -214,7 +211,12 @@ public class SaBan : Item {
         aSource.Stop();
         Debug.Log(clickCount);
         Debug.Log(data[0].isCancel);
-        
+
+        for (int i = 0; i < 7; i++)
+        {
+            data[0].imgTime.Add(mTime[i]);
+        }
+
         if (data[0].isCancel || clickCount < 2)
         {
 

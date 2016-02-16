@@ -2,18 +2,18 @@ using UnityEngine;
 using System.Collections;
 
 public class ObjectRotator : MonoBehaviour {
-	
-	public float xRotation = 0.0f;
-	public float yRotation = 0.0f;
-	public float zRotation = 0.0f;
 
-	
+    Transform trans;
+
+    void Start()
+    {
+        trans = transform;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-	
-		  // Slowly rotate the object around its X axis at 1 degree/second.
-        transform.Rotate(xRotation, yRotation, zRotation);
-        
-	}
+        if (!gameObject.activeInHierarchy)
+            return;
+        trans.Rotate(0, 20 * Time.deltaTime, 0);
+    }
 }
